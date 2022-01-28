@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b6824e3a-c1de-41cd-a75a-bc7b4a2bc544" name="变更" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/action/divingcombo.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/action/divingcombo.php.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/action/enemy.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/action/enemy.php.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/action/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/action/index.htm" afterDir="false" />
@@ -31,34 +33,6 @@
       <change beforePath="$PROJECT_DIR$/character/park.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/character/park.php.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/character/tong.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/character/tong.php.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/character/vera_ross.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/character/vera_ross.php.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/css/urban_reign.css" beforeDir="false" afterPath="$PROJECT_DIR$/common/css/urban_reign.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/img/wallpaper/i_brad1024x768.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/img/wallpaper/i_brad1280x1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/img/wallpaper/i_brad800x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/img/wallpaper/i_chris1024x768.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/img/wallpaper/i_chris1280x1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/img/wallpaper/i_chris800x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/img/wallpaper/i_douglas1024x768.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/img/wallpaper/i_douglas1280x1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/img/wallpaper/i_douglas800x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/img/wallpaper/i_dwayne1024x768.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/img/wallpaper/i_dwayne1280x1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/img/wallpaper/i_dwayne800x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/img/wallpaper/i_kadonashi1024x768.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/img/wallpaper/i_kadonashi1280x1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/img/wallpaper/i_kadonashi800x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/img/wallpaper/i_lee1024x768.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/img/wallpaper/i_lee1280x1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/img/wallpaper/i_lee800x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/img/wallpaper/i_lin1024x768.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/img/wallpaper/i_lin1280x1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/img/wallpaper/i_lin800x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/img/wallpaper/i_napalm1024x768.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/img/wallpaper/i_napalm1280x1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/img/wallpaper/i_napalm800x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/img/wallpaper/i_shinkai1024x768.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/img/wallpaper/i_shinkai1280x1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/img/wallpaper/i_shinkai800x600.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/download/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/download/index.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/download/index.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/download/index.php.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/download/wallpaper.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/download/wallpaper.php.htm" afterDir="false" />
@@ -117,6 +91,9 @@
       <option name="presentableId" value="Default" />
       <updated>1643362338206</updated>
       <workItem from="1643362341158" duration="332000" />
+      <workItem from="1643362753754" duration="2606000" />
+      <workItem from="1643366248802" duration="1224000" />
+      <workItem from="1643367503230" duration="14465000" />
     </task>
     <servers />
   </component>
