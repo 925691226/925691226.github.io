@@ -4,10 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6824e3a-c1de-41cd-a75a-bc7b4a2bc544" name="变更" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/character/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/character/index.htm" afterDir="false" />
-    </list>
+    <list default="true" id="b6824e3a-c1de-41cd-a75a-bc7b4a2bc544" name="变更" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +40,7 @@
       <workItem from="1643362753754" duration="2606000" />
       <workItem from="1643366248802" duration="1224000" />
       <workItem from="1643367503230" duration="14465000" />
-      <workItem from="1643411330149" duration="33663000" />
+      <workItem from="1643411330149" duration="34014000" />
     </task>
     <servers />
   </component>
