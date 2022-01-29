@@ -6,7 +6,7 @@
 <meta name="robots" content="INDEX,FOLLOW">
 <meta http-equiv="content-Script-Type" content="text/javascript">
 <meta http-equiv="content-style-type" content="text/css">
-<title>PS2/��?�Ի� | ��������� | 简体中文网站</title>
+<title>PS2/君临都市 | 操作指南 | 简体中文网站</title>
 <link href="../common/css/urban_reign.css"  rel="stylesheet" type="text/css">
 <script language="JavaScript" type="text/javascript" src="../../../../../idolmaster-official.jp/index.htm" ></script>
 
@@ -16,7 +16,7 @@ var imgNum = new Array("",1,1,1,1,1);
 var imgMax = new Array("",16,4,3,6,6);
 var imgPic = new Array("","invite_pic","aliance_pic","sprit_pic","pass_pic","character_change_pic");
 
-//	���ޡ��Ȥ�ID���ꤹ����ˡ�����ꡣ
+//	挑战在于如何巧妙地指定ID。
 // Title_01
 function disp(hoge) {
 	cat1.style.display = "none";
@@ -115,7 +115,7 @@ function disp5(hoge) {
 
 
 
-// �¹ԥ���
+// 执行键
 function Imgreload1(hoge){
 switch (hoge){
 	case 1:
@@ -140,19 +140,19 @@ switch (hoge){
 		break;
 }
 }
-//���ؤΥܥ����ư
+//下一步按钮行为
 function nxt(hoge){
 	imgNum[hoge] ++;
 	if (imgMax[hoge] < imgNum[hoge]) imgNum[hoge] = 1;
 	Imgreload1(hoge);
 }
-//���ؤΥܥ����ư
+//上一步按钮行为
 function bak(hoge){
 	imgNum[hoge] --;
 	if (imgNum[hoge] < 1) imgNum[hoge] = imgMax[hoge];
 	Imgreload1(hoge);
 }
-//preload
+//预加载
 	sithImage = new Array(30);
 	sithImage[1] = new Image; sithImage[1].src = "img/shiji/aliance_pic2.jpg"/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/action/img/shiji/aliance_pic2.jpg*/;
 	sithImage[2] = new Image; sithImage[2].src = "img/shiji/aliance_pic3.jpg"/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/action/img/shiji/aliance_pic3.jpg*/;
@@ -209,22 +209,22 @@ function bak(hoge){
 		<td>
 <div id="navigation">
   <table border="0" cellspacing="0" cellpadding="0">
-    <tr>
-      <td id="left_bar"></td>
-      <td id="story"><a href="../story/index.htm" ><span>故事介绍</span></a></td>
-      <td id="chara"><a href="../character/index.htm" ><span>角色介绍</span></a></td>
-	  <td id="guestchara"><a href="../guest_character/index.htm" ><span>特邀角色</span></a></td>
-      <td id="stage"><a href="../stage/index.htm" ><span>场景介绍</span></a></td>
-      <td id="mode"><a href="../mode/index.htm" ><span>模式介绍</span></a></td>
-      <td id="action"><a href="index.htm" ><span>������</span></a></td>
-      <td id="weapon"><a href="../weaponbattle/index.htm" ><span>������</span></a></td>
-      <td id="system"><a href="../battle_system/index.htm" ><span>��?</span></a></td>
-      <td id="movie"><a href="../download/index.htm" ><span>��?</span></a></td>
-      <td id="right_bar"></td>
-    </tr>
+      <tr>
+          <td id="left_bar"></td>
+          <td id="story"><a href=../story/><span>故事介绍</span></a></td>
+          <td id="chara"><a href=../character/><span>角色介绍</span></a></td>
+          <td id="guestchara"><a href=../guest_character/><span>特邀角色</span></a></td>
+          <td id="stage"><a href=../stage/><span>场景介绍</span></a></td>
+          <td id="mode"><a href=../mode/><span>模式介绍</span></a></td>
+          <td id="action"><a href=../action/><span>操作指南</span></a></td>
+          <td id="weapon"><a href=../weaponbattle/><span>武器格斗</span></a></td>
+          <td id="system"><a href=../battle_system/><span>系统</span></a></td>
+          <td id="movie"><a href=../download/><span>下载</span></a></td>
+          <td id="right_bar"></td>
+      </tr>
 	<tr>
 	  <td></td>
-      <td><img src="../../namcollection/_common/img/all/spacer.gif"  width="1" height="10"></td>
+      <td><img src="../namcollection/_common/img/all/spacer.gif"  width="1" height="10"></td>
       <td></td>
       <td></td>
       <td></td>
@@ -251,7 +251,7 @@ function bak(hoge){
   </table>
 </div>
 
-		  <img src="img/lead.jpg"  alt="���������" width="760" height="53"></td>
+		  <img src="img/lead.jpg"  alt="操作指南" width="760" height="53"></td>
 		</tr>
 	<tr>
 	  <td><img src="../common/img/all/spacer.gif"  alt="" width="8" height="20"></td>
@@ -260,23 +260,23 @@ function bak(hoge){
       <td align="right"><table border="0" cellpadding="0" cellspacing="0" class="navigationArea">
         <tr>
           <td><img src="../common/img/all/spacer.gif"  alt="" width="10" height="10"></td>
-          <td><p align="left" class="para"><a class="lnavi" href="index.php.htm" >�����������</a></p></td>
+          <td><p align="left" class="para"><a class="lnavi" href="index.php.htm" >・操作指南</a></p></td>
           <td><img src="../common/img/all/spacer.gif"  alt="" width="10" height="10"></td>
-          <td><p align="left" class="para"><a class="lnavi" href="target_change_combo.php.htm" >���������åȥ����󥸥����</a></p></td>
+          <td><p align="left" class="para"><a class="lnavi" href="target_change_combo.php.htm" >・目标切换连击</a></p></td>
           <td><p class="para"></p></td>
         </tr>
         <tr class="para">
           <td><span class="redLine"><img src="../common/img/all/spacer.gif"  alt="" width="10" height="10"></span></td>
-          <td><p align="left" class="para"><a href="divingcombo.php.htm" >�������ӥ󥰥����</a></p></td>
+          <td><p align="left" class="para"><a href="divingcombo.php.htm" >・踩踢连击</a></p></td>
           <td><img src="../common/img/all/spacer.gif"  alt="" width="10" height="10"></td>
-          <td><p align="left" class="para">���ؼ��Ф�</p></td>
+          <td><p align="left" class="para">・发出指示</p></td>
           <td><p class="para"></p></td>
         </tr>
         <tr class="para">
           <td><img src="../common/img/all/spacer.gif"  alt="" width="10" height="10"></td>
-          <td><p class="para"align="left"><a class="lnavi" href="enemy.php.htm" >��Ũ�θƤӴ�</a></p></td>
+          <td><p class="para"align="left"><a class="lnavi" href="enemy.php.htm" >・挑衅敌人</a></p></td>
           <td><img src="../common/img/all/spacer.gif"  alt="" width="10" height="10"></td>
-          <td><p align="left" class="para"><a class="lnavi" href="protection.php.htm" >���Ƿ��򤱡��Ƿ��֤����ꤲȴ��</a></p></td>
+          <td><p align="left" class="para"><a class="lnavi" href="protection.php.htm" >・躲避攻击、反击、投技</a></p></td>
           <td><p class="para"></p></td>
         </tr>
       </table></td>
@@ -288,7 +288,7 @@ function bak(hoge){
               <td><span class="redLine"><img src="../common/img/all/spacer.gif"  alt="" width="10" height="10"></span></td>
 		      </tr>
 		    <tr>
-              <td align="left"><img src="img/shiji/lead.jpg"  alt="�ؼ��Ф�" width="201" height="30"></td>
+              <td align="left"><img src="img/shiji/lead.jpg"  alt="发出指示" width="201" height="30"></td>
 		      </tr>
             <tr>
               <td><p class="redLine"><img src="../common/img/all/spacer.gif"  alt="" width="1" height="15"></p></td>
@@ -296,18 +296,18 @@ function bak(hoge){
             <tr>
               <td><table border="0" cellpadding="0" cellspacing="0" class="cellTable">
                 <tr>
-                  <td valign="top"><p class="para">�ط�?�Իԡ٤ΥХȥ�Ǥϡ�<br>
-                    �ѡ��ȥʡ����Ф����͡��ʻؼ���Ф����Ȥ��Ǥ��롣<BR>
-        �֥����๶��ʤɤζ��Ϥ����ס����̤�Ũ�򹶷⤵����ס�<br>
-        ������ѥ������㤦��������<BR>
-        Ū�Τ˻ؼ���Ф���¿�Ϳ���Ʈ���꤯���ʤ�����</p></td>
+                  <td valign="top"><p class="para">在『君临都市』的战斗中、<br>
+                      可以对合作伙伴发出各种各样的指示。<BR>
+                      「请求使用合体技等配合」，「攻击另一个敌人」，<br>
+                      「传递武器」等。<BR>
+                      正确地下达指示，在多人作战中获得最佳效果！</p></td>
                   <td class="chgImgArea">
                   <table width="202" border="0" cellpadding="0" cellspacing="0">
                       <tr>
                         <td><img src="img/shiji/shiji_pic1.jpg"  width="202" height="156"></td>
                       </tr>
                       <tr>
-                        <td><p class="para">���̺����˻ؼ��Ф��Υ�������ɽ������롣</p></td>
+                        <td><p class="para">在画面左下角显示出指示的图标。</p></td>
                       </tr>
                   </table></td>
                 </tr>
@@ -315,7 +315,7 @@ function bak(hoge){
               <p class="para"></p></td>
             </tr>
             <tr>
-              <td><img src="img/shiji/title01.gif"  alt="�ѡ��ȥʡ�������๶���Ͷ��" width="242" height="20"></td>
+              <td><img src="img/shiji/title01.gif"  alt="邀请合作伙伴进行合体技攻击" width="242" height="20"></td>
             </tr>
             <tr>
               <td><span class="redLine"><img src="../common/img/all/spacer.gif"  alt="" width="1" height="15"></span></td>
@@ -329,9 +329,9 @@ function bak(hoge){
                         <td><img src="img/shiji/icon1.gif"  width="50" height="35"></td>
                       </tr>
                       <tr>
-                        <td><p class="para">�ؼ���Ф��ȥѡ��ȥʡ��������๶���ǽ�ʰ��֤˰�ư���롣<BR>
-  ���λؼ����Ϥ߹������κ���ˤ��ǽ�ǡ�<br>
-  ���ξ��ѡ��ȥʡ�����ư���ƥ����๶��ؤȰܹԤ��롣</p></td>
+                        <td><p class="para">发出指示的话，伙伴会移动到合体技可以使用的位置。<BR>
+                            即使在抓投攻击等期间也可以发出此指令。<br>
+                            在这种情况下，合作伙伴将移动并移动到合体技攻击。</p></td>
                       </tr>
                     </table></td>
                     <td class="chgImgArea"><table width="202" border="0" cellpadding="0" cellspacing="0">
@@ -348,22 +348,22 @@ function bak(hoge){
                       </tr>
 						  <tr>
 						  	<td height="100" valign="top">
-							<p id="cat1" class="para"><span class="dispchange">1/16</span><br>�ץ쥤�䡼�ȥѡ��ȥʡ������줾��㤦Ũ�����ˤ��Ƥ��롣</p>
-							<p id="cat2" class="para" style="display:none"><span class="dispchange">2/16</span><br>�ޤ����ץ쥤�䡼��Ũ����ޤ���</p>
-							<p id="cat3" class="para" style="display:none"><span class="dispchange">3/16</span><br>�ѡ��ȥʡ�������๶���Ͷ��</p>
-							<p id="cat4" class="para" style="display:none"><span class="dispchange">4/16</span><br>�ѡ��ȥʡ��ϥץ쥤�䡼�����ض���</p>
-							<p id="cat5" class="para" style="display:none"><span class="dispchange">5/16</span><br>�ѡ��ȥʡ��ϥץ쥤�䡼�����ض���</p>
-							<p id="cat6" class="para" style="display:none"><span class="dispchange">6/16</span><br>�ѡ��ȥʡ��ϥץ쥤�䡼�����ض���</p>
-							<p id="cat7" class="para" style="display:none"><span class="dispchange">7/16</span><br>�ѡ��ȥʡ��ȥץ쥤�䡼�ˤ����ͤ�����Υ����๶�⤬</p>
-							<p id="cat8" class="para" style="display:none"><span class="dispchange">8/16</span><br>�ѡ��ȥʡ��������๶�⤬��ǽ�ʰ��֤ذ�ư�����</p>
-							<p id="cat9" class="para" style="display:none"><span class="dispchange">9/16</span><br>��ưŪ�˥����๶��ؤȰܹԤ���</p>
-							<p id="cat10" class="para" style="display:none"><span class="dispchange">10/16</span><br>�ѡ��ȥʡ��ȥץ쥤�䡼�ˤ����ͤ�����Υ����๶�⤬</p>
-							<p id="cat11" class="para" style="display:none"><span class="dispchange">11/16</span><br>�ѡ��ȥʡ��ȥץ쥤�䡼�ˤ����ͤ�����Υ����๶�⤬</p>
-							<p id="cat12" class="para" style="display:none"><span class="dispchange">12/16</span><br>�ѡ��ȥʡ��ȥץ쥤�䡼�ˤ����ͤ�����Υ����๶�⤬</p>
-							<p id="cat13" class="para" style="display:none"><span class="dispchange">13/16</span><br>�ѡ��ȥʡ��ȥץ쥤�䡼�ˤ����ͤ�����Υ����๶�⤬</p>
-							<p id="cat14" class="para" style="display:none"><span class="dispchange">14/16</span><br>��������������</p>
-							<p id="cat15" class="para" style="display:none"><span class="dispchange">15/16</span><br>��������������</p>
-							<p id="cat16" class="para" style="display:none"><span class="dispchange">16/16</span><br>��������������</p>
+							<p id="cat1" class="para"><span class="dispchange">1/16</span><br>玩家和伙伴各自面对不同的敌人。</p>
+							<p id="cat2" class="para" style="display:none"><span class="dispchange">2/16</span><br>首先，玩家抓住敌人</p>
+							<p id="cat3" class="para" style="display:none"><span class="dispchange">3/16</span><br>邀请合作伙伴进行合体技攻击</p>
+							<p id="cat4" class="para" style="display:none"><span class="dispchange">4/16</span><br>伙伴跑向玩家</p>
+							<p id="cat5" class="para" style="display:none"><span class="dispchange">5/16</span><br>伙伴跑向玩家</p>
+							<p id="cat6" class="para" style="display:none"><span class="dispchange">6/16</span><br>伙伴跑向玩家</p>
+							<p id="cat7" class="para" style="display:none"><span class="dispchange">7/16</span><br>由伙伴和玩家组成的两人团队攻击</p>
+							<p id="cat8" class="para" style="display:none"><span class="dispchange">8/16</span><br>如果合作伙伴移动到可以进行合体技攻击的位置</p>
+							<p id="cat9" class="para" style="display:none"><span class="dispchange">9/16</span><br>自动过渡到合体技攻击</p>
+							<p id="cat10" class="para" style="display:none"><span class="dispchange">10/16</span><br>由伙伴和玩家组成的两人团队攻击</p>
+							<p id="cat11" class="para" style="display:none"><span class="dispchange">11/16</span><br>由伙伴和玩家组成的两人团队攻击</p>
+							<p id="cat12" class="para" style="display:none"><span class="dispchange">12/16</span><br>由伙伴和玩家组成的两人团队攻击</p>
+							<p id="cat13" class="para" style="display:none"><span class="dispchange">13/16</span><br>由伙伴和玩家组成的两人团队攻击</p>
+							<p id="cat14" class="para" style="display:none"><span class="dispchange">14/16</span><br>爆发力十足</p>
+							<p id="cat15" class="para" style="display:none"><span class="dispchange">15/16</span><br>爆发力十足</p>
+							<p id="cat16" class="para" style="display:none"><span class="dispchange">16/16</span><br>爆发力十足</p>
 							</td>
 						  </tr>
                     </table></td>
@@ -375,7 +375,7 @@ function bak(hoge){
               <td><span class="redLine"><img src="../common/img/all/spacer.gif"  alt="" width="1" height="60"></span></td>
             </tr>
             <tr>
-              <td><img src="img/shiji/title02.gif"  alt="�ѡ��ȥʡ��˶��Ϥ����" width="209" height="20"></td>
+              <td><img src="img/shiji/title02.gif"  alt="向合作伙伴寻求合作" width="209" height="20"></td>
             </tr>
             <tr><img src="../common/img/all/spacer.gif"  alt="" width="1" height="30">
               <td><span class="redLine"><img src="../common/img/all/spacer.gif"  alt="" width="1" height="15"></span></td>
@@ -388,10 +388,9 @@ function bak(hoge){
                       <td><img src="img/shiji/icon2.gif"  width="50" height="50"></td>
                     </tr>
                     <tr>
-                      <td><p class="para">���λؼ���Ф��ȥѡ��ȥʡ��ϥץ쥤�䡼��Ʊ��Ũ��<br>
-                        �������åȤ��ƹ��⤹�롣<BR>
-  ����ˤ�ꡢƱ��Ũ�򶦤˹��⤷���ꡢ<br>
-  ���������Ƥ�����˽����Ƥ�館�롣</p></td>
+                      <td><p class="para">发出这个指示的话，伙伴会以和玩家一样的敌人为目标进行攻击。<br>
+                          这样就可以一起攻击同一个敌人，<br>
+                          受到攻击的时候会得到帮助。</p></td>
                     </tr>
                   </table></td>
                   <td class="chgImgArea"><table width="202" border="0" cellpadding="0" cellspacing="0">
@@ -408,10 +407,10 @@ function bak(hoge){
                     </tr>
                     <tr>
                       <td height="130" valign="top">
-					  <p id="d2cat1" class="para"><span class="dispchange">1/4</span><br>���̼�����Ũ�����ˤ��Ƥ���ץ쥤�䡼�Ȳ��̱���¾��Ũ�����ˤ��Ƥ���ѡ��ȥʡ�</p>
-						<p id="d2cat2" class="para" style="display:none"><span class="dispchange">2/4</span><br>���Ϥ��Ƥ����褦�ؼ���Ф���</p>
-						<p id="d2cat3" class="para" style="display:none"><span class="dispchange">3/4</span><br>�������åȤ�ץ쥤�䡼��Ʊ�������ڤ��ؤ��뤾</p>
-						<p id="d2cat4" class="para" style="display:none"><span class="dispchange">4/4</span><br>�������åȤ�ץ쥤�䡼��Ʊ�������ڤ��ؤ��뤾</p>
+					  <p id="d2cat1" class="para"><span class="dispchange">1/4</span><br>玩家面对屏幕正面的敌人，而伙伴面对屏幕背面的其他敌人</p>
+						<p id="d2cat2" class="para" style="display:none"><span class="dispchange">2/4</span><br>如果发出指示请协助的话</p>
+						<p id="d2cat3" class="para" style="display:none"><span class="dispchange">3/4</span><br>把目标换成和玩家相同的对手</p>
+						<p id="d2cat4" class="para" style="display:none"><span class="dispchange">4/4</span><br>把目标换成和玩家相同的对手</p>
 						</td>
                     </tr>
                   </table></td>
@@ -423,7 +422,7 @@ function bak(hoge){
               <td><span class="redLine"><img src="../common/img/all/spacer.gif"  alt="" width="1" height="30"><img src="../common/img/all/spacer.gif"  alt="" width="1" height="60"></span></td>
             </tr>
             <tr>
-              <td><img src="img/shiji/title03.gif"  alt="�ѡ��ȥʡ���¾��Ũ��ޤ�����" width="246" height="20"></td>
+              <td><img src="img/shiji/title03.gif"  alt="把其他敌人交给合作伙伴" width="246" height="20"></td>
             </tr>
             <tr>
               <td><span class="redLine"><img src="../common/img/all/spacer.gif"  alt="" width="1" height="15"></span></td>
@@ -436,9 +435,9 @@ function bak(hoge){
                         <td><img src="img/shiji/icon3.gif"  width="50" height="50"></td>
                       </tr>
                       <tr>
-                        <td><p class="para">���λؼ��ǥѡ��ȥʡ��ϥץ쥤�䡼��<br>
-                          �������åȤȤ��Ƥ��ʤ�Ũ�򹶷⤹�롣<BR>
-  Ũ��ʬ�Ǥ��뤳�Ȥ��ǽ����</p></td>
+                        <td><p class="para">有了这个指令，<br>
+                            伙伴就会攻击一个不是玩家目标的敌人。<BR>
+                            也可以分敌。</p></td>
                       </tr>
                   </table></td>
                   <td class="chgImgArea"><table width="202" border="0" cellpadding="0" cellspacing="0">
@@ -454,9 +453,9 @@ function bak(hoge){
                       </table></td>
                     </tr>
                     <tr>
-                      <td height="160" valign="top"><p id="d3cat1" class="para"><span class="dispchange">1/3</span><br>Ʊ��Ũ�򥿡����åȤȤ��Ƥ���ѡ��ȥʡ�</p>
-					  	<p id="d3cat2" class="para" style="display:none"><span class="dispchange">2/3</span><br>�ѡ��ȥʡ���¾�Υ���饯������ޤ�����ؼ���Ф���</p>
-						<p id="d3cat3" class="para" style="display:none"><span class="dispchange">3/3</span><br>���ξ줫��Υ�졢�ץ쥤�䡼���������åȤȤ��Ƥ��ʤ�Ũ�򥿡����åȤˤ��롣��Ф��򤷤��ߤ����ʤ�����Ũ��ʬ�Ǥ����������ʤɤ�ͭ������</p></td>
+                      <td height="160" valign="top"><p id="d3cat1" class="para"><span class="dispchange">1/3</span><br>针对同一个敌人的伙伴</p>
+					  	<p id="d3cat2" class="para" style="display:none"><span class="dispchange">2/3</span><br>如果你指示你的伙伴把其他角色留给你</p>
+						<p id="d3cat3" class="para" style="display:none"><span class="dispchange">3/3</span><br>离开原地，将目标指向玩家不作为目标的敌人。如果你不想出手，或者你想分割敌人，这就很有用。</p></td>
                     </tr>
                   </table></td>
                 </tr>
@@ -467,7 +466,7 @@ function bak(hoge){
               <td><span class="redLine"><img src="../common/img/all/spacer.gif"  alt="" width="1" height="30"><img src="../common/img/all/spacer.gif"  alt="" width="1" height="60"></span></td>
             </tr>
             <tr>
-              <td><img src="img/shiji/title04.gif"  alt="����ѥ����Ƥ�餦���ѥ��򤹤�" width="271" height="20"></td>
+              <td><img src="img/shiji/title04.gif"  alt="要求传递武器、传递物品" width="271" height="20"></td>
             </tr>
             <tr>
               <td><span class="redLine"><img src="../common/img/all/spacer.gif"  alt="" width="1" height="15"></span></td>
@@ -480,9 +479,9 @@ function bak(hoge){
                         <td><img src="img/shiji/icon4.gif"  width="50" height="50"></td>
                       </tr>
                       <tr>
-                        <td><p class="para">���λؼ��ǡ���ʬ������������䥢���ƥ��<br>
-                          �ѡ��ȥʡ��˥ѥ������ꡢ�ѡ��ȥʡ����������ʤɤ�<br>
-                          ��餦���Ȥ�����롣</p></td>
+                        <td><p class="para">通过此指令，<br>
+                            可以将你拥有的武器和物品传递给你的合作伙伴<br>
+                            也可以获得你的合作伙伴拥有的武器。</p></td>
                       </tr>
                   </table></td>
                   <td class="chgImgArea"><table width="202" border="0" cellpadding="0" cellspacing="0">
@@ -499,12 +498,12 @@ function bak(hoge){
                     </tr>
                     <tr>
                       <td height="75" valign="top">
-					  <p id="d4cat1" class="para"><span class="dispchange">1/6</span><br>�ץ쥤�䡼�������ˤ��ơ����ѥ��ؼ���Ф�</p>
-					  <p id="d4cat2" class="para" style="display:none"><span class="dispchange">2/6</span><br>�ץ쥤�䡼����餬���򿶤꤫�֤�</p>
-					  <p id="d4cat3" class="para" style="display:none"><span class="dispchange">3/6</span><br>�ѡ��ȥʡ��ظ����ä��ꤲ��</p>
-					  <p id="d4cat4" class="para" style="display:none"><span class="dispchange">4/6</span><br>�ѡ��ȥʡ��ظ����ä��ꤲ��</p>
-					  <p id="d4cat5" class="para" style="display:none"><span class="dispchange">5/6</span><br>���̱��Υѡ��ȥʡ������򤷤ä��ꥭ��å�</p>
-					  <p id="d4cat6" class="para" style="display:none"><span class="dispchange">6/6</span><br>���̱��Υѡ��ȥʡ������򤷤ä��ꥭ��å�</p>
+					  <p id="d4cat1" class="para"><span class="dispchange">1/6</span><br>玩家手持武器、发出武器传递指示</p>
+					  <p id="d4cat2" class="para" style="display:none"><span class="dispchange">2/6</span><br>玩家角色挥舞着武器</p>
+					  <p id="d4cat3" class="para" style="display:none"><span class="dispchange">3/6</span><br>扔给你的伙伴</p>
+					  <p id="d4cat4" class="para" style="display:none"><span class="dispchange">4/6</span><br>扔给你的伙伴</p>
+					  <p id="d4cat5" class="para" style="display:none"><span class="dispchange">5/6</span><br>屏幕后方的伙伴牢牢抓住武器</p>
+					  <p id="d4cat6" class="para" style="display:none"><span class="dispchange">6/6</span><br>屏幕后方的伙伴牢牢抓住武器</p>
 					  </td>
                     </tr>
                   </table></td>
@@ -516,7 +515,7 @@ function bak(hoge){
               <td><span class="redLine"><img src="../common/img/all/spacer.gif"  alt="" width="1" height="30"><img src="../common/img/all/spacer.gif"  alt="" width="1" height="60"></span></td>
             </tr>
             <tr>
-              <td><img src="img/shiji/title05.gif"  alt="����饯����������" width="164" height="20"></td>
+              <td><img src="img/shiji/title05.gif"  alt="角色切换" width="164" height="20"></td>
             </tr>
             <tr>
               <td><span class="redLine"><img src="../common/img/all/spacer.gif"  alt="" width="1" height="15"></span></td>
@@ -529,9 +528,9 @@ function bak(hoge){
                         <td><img src="img/shiji/icon6.gif"  width="50" height="50"></td>
                       </tr>
                       <tr>
-                        <td><p class="para">����饯�����������ؤ��롣<BR>
-  �������򤹤������饯�����������ؤ�ꡢ<br>
-  �ѡ��ȥʡ������뤳�Ȥ�����롣</p></td>
+                        <td><p class="para">更换操作角色。<BR>
+                            如果进行这个操作的话，<br>
+                            操作角色被更换，可以操作伙伴。</p></td>
                       </tr>
                   </table></td>
                   <td class="chgImgArea">
@@ -549,12 +548,12 @@ function bak(hoge){
                     </tr>
                     <tr>
                       <td height="80" valign="top">
-					  <p id="d5cat1" class="para"><span class="dispchange">1/6</span><br>��͸��Ǥ���֥�åɥۡ��������</p>
-					  <p id="d5cat2" class="para" style="display:none"><span class="dispchange">2/6</span><br>�ؼ��Ф��ǥ���饯���������󥸡�</p>
-					  <p id="d5cat3" class="para" style="display:none"><span class="dispchange">3/6</span><br>�ؼ��Ф��ǥ���饯���������󥸡�</p>
-					  <p id="d5cat4" class="para" style="display:none"><span class="dispchange">4/6</span><br>���ϥ������ΰ��֤������ؤ��</p>
-					  <p id="d5cat5" class="para" style="display:none"><span class="dispchange">5/6</span><br>���ϥ������ΰ��֤������ؤ��</p>
-					  <p id="d5cat6" class="para" style="display:none"><span class="dispchange">6/6</span><br>����饯�������꡼������󥤥�˰ܤ��Ѥ�ä�</p>
+					  <p id="d5cat1" class="para"><span class="dispchange">1/6</span><br>操控主角布拉德·霍克</p>
+					  <p id="d5cat2" class="para" style="display:none"><span class="dispchange">2/6</span><br>通过给出指令改变角色</p>
+					  <p id="d5cat3" class="para" style="display:none"><span class="dispchange">3/6</span><br>通过给出指令改变角色</p>
+					  <p id="d5cat4" class="para" style="display:none"><span class="dispchange">4/6</span><br>体力槽的位置被替换了</p>
+					  <p id="d5cat5" class="para" style="display:none"><span class="dispchange">5/6</span><br>体力槽的位置被替换了</p>
+					  <p id="d5cat6" class="para" style="display:none"><span class="dispchange">6/6</span><br>操作角色转变为李顺英</p>
 
 					  </td>
                     </tr>
@@ -575,8 +574,8 @@ function bak(hoge){
 	<tr>
 		<td align="right"><table width="100%" border="0" cellpadding="0" cellspacing="0">
           <tr>
-            <td align="left"><p class="para" id="gotop"><a href="../index.htm" >�ֲ��?</a></p></td>
-            <td align="right"><p id="gotop"class="para"><a href="instruction.php.htm" >�ֲ���?��?</a></p></td>
+            <td align="left"><p class="para" id="gotop"><a href="../index.htm" >返回首页</a></p></td>
+            <td align="right"><p id="gotop"class="para"><a href="instruction.php.htm" >返回本页首页</a></p></td>
           </tr>
         </table></td>
 	</tr>
@@ -588,9 +587,9 @@ function bak(hoge){
 </div></td>
 </tr>
 <tr>
-<td><!--�եå����ɤ߹��ߤ�������-->
+<td><!--フッター読み込みここから-->
 <script src="../../../../../www.bandainamcogames.co.jp/common/include/products/euc/black/footer01.js"  type="text/javascript" language="JavaScript"></script>
-<!--�եå����ɤ߹��ߤ����ޤ�-->
+<!--フッター読み込みここまで-->
 </td></tr></table>
 </body>
 </html>

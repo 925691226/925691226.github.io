@@ -1,4 +1,4 @@
-@charset "euc-jp";
+@charset "utf-8";
 
 /* ------- URBAN REIGN CSS ------- */
 
@@ -8,7 +8,7 @@ img.redLine		{ border: 0px solid #F00; }
 
 p.para		{ font-size: 14px; line-height: 200%; color: #FFF; }
 p.paras		{ font-size: 12px; line-height: 120%; color: #FFF; margin-top: 5px; }
-P.min		{ font-family: "£Í£Ó £ĞÌÀÄ«", "ºÙÌÀÄ«ÂÎ", "¥Ò¥é¥®¥ÎÌÀÄ« Pro W3"; }
+P.min		{ font-family: "ï¼­ï¼³ ï¼°æ˜æœ", "ç´°æ˜æœä½“", "ãƒ’ãƒ©ã‚®ãƒæ˜æœ Pro W3"; }
 a.lnavi 	{font-size: 14px; line-height: 200%; color: #C11616; text-decoration: none;}
 a.lnavi:hover		{ font-size: 14px; line-height: 200%; color: #C11616; text-decoration: underline; }
 a			{ font-size: 14px; line-height: 125%; color: #C11616; text-decoration: none; }

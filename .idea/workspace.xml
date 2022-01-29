@@ -33,6 +33,7 @@
       <change beforePath="$PROJECT_DIR$/character/park.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/character/park.php.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/character/tong.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/character/tong.php.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/character/vera_ross.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/character/vera_ross.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/css/urban_reign.css" beforeDir="false" afterPath="$PROJECT_DIR$/common/css/urban_reign.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/download/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/download/index.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/download/index.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/download/index.php.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/download/wallpaper.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/download/wallpaper.php.htm" afterDir="false" />
@@ -40,7 +41,6 @@
       <change beforePath="$PROJECT_DIR$/guest_character/10comb.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/guest_character/10comb.php.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guest_character/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/guest_character/index.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guest_character/index.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/guest_character/index.php.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/index.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mode/challenge.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/mode/challenge.php.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mode/freemode.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/mode/freemode.php.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mode/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/mode/index.htm" afterDir="false" />
@@ -94,6 +94,7 @@
       <workItem from="1643362753754" duration="2606000" />
       <workItem from="1643366248802" duration="1224000" />
       <workItem from="1643367503230" duration="14465000" />
+      <workItem from="1643411330149" duration="32508000" />
     </task>
     <servers />
   </component>
