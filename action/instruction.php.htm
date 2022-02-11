@@ -6,9 +6,8 @@
 <meta name="robots" content="INDEX,FOLLOW">
 <meta http-equiv="content-Script-Type" content="text/javascript">
 <meta http-equiv="content-style-type" content="text/css">
-<title>PS2/君临都市 | 操作指南 | 简体中文网站</title>
-<link href="../common/css/urban_reign.css"  rel="stylesheet" type="text/css">
-<script language="JavaScript" type="text/javascript" src="../../../../../idolmaster-official.jp/index.htm" ></script>
+<title>PS2/アーバンレイン | アクション | バンダイナムコゲームス公式サイト</title>
+<link href="../common/css/urban_reign.css" rel="stylesheet" type="text/css">
 
 <script>
 <!--
@@ -16,7 +15,7 @@ var imgNum = new Array("",1,1,1,1,1);
 var imgMax = new Array("",16,4,3,6,6);
 var imgPic = new Array("","invite_pic","aliance_pic","sprit_pic","pass_pic","character_change_pic");
 
-//	挑战在于如何巧妙地指定ID。
+//	スマートにID指定する方法が課題。
 // Title_01
 function disp(hoge) {
 	cat1.style.display = "none";
@@ -115,7 +114,7 @@ function disp5(hoge) {
 
 
 
-// 执行键
+// 実行キー
 function Imgreload1(hoge){
 switch (hoge){
 	case 1:
@@ -140,58 +139,58 @@ switch (hoge){
 		break;
 }
 }
-//下一步按钮行为
+//次へのボタン挙動
 function nxt(hoge){
 	imgNum[hoge] ++;
 	if (imgMax[hoge] < imgNum[hoge]) imgNum[hoge] = 1;
 	Imgreload1(hoge);
 }
-//上一步按钮行为
+//前へのボタン挙動
 function bak(hoge){
 	imgNum[hoge] --;
 	if (imgNum[hoge] < 1) imgNum[hoge] = imgMax[hoge];
 	Imgreload1(hoge);
 }
-//预加载
+//preload
 	sithImage = new Array(30);
-	sithImage[1] = new Image; sithImage[1].src = "img/shiji/aliance_pic2.jpg"/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/action/img/shiji/aliance_pic2.jpg*/;
-	sithImage[2] = new Image; sithImage[2].src = "img/shiji/aliance_pic3.jpg"/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/action/img/shiji/aliance_pic3.jpg*/;
-	sithImage[3] = new Image; sithImage[3].src = "img/shiji/aliance_pic4.jpg"/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/action/img/shiji/aliance_pic4.jpg*/;
-	sithImage[4] = new Image; sithImage[4].src = "img/shiji/sprit_pic2.jpg"/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/action/img/shiji/sprit_pic2.jpg*/;
-	sithImage[5] = new Image; sithImage[5].src = "img/shiji/sprit_pic3.jpg"/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/action/img/shiji/sprit_pic3.jpg*/;
-	sithImage[6] = new Image; sithImage[6].src = "img/shiji/pass_pic2.jpg"/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/action/img/shiji/pass_pic2.jpg*/;
-	sithImage[7] = new Image; sithImage[7].src = "img/shiji/pass_pic3.jpg"/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/action/img/shiji/pass_pic3.jpg*/;
-	sithImage[8] = new Image; sithImage[8].src = "img/shiji/pass_pic4.jpg"/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/action/img/shiji/pass_pic4.jpg*/;
-	sithImage[9] = new Image; sithImage[9].src = "img/shiji/pass_pic5.jpg"/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/action/img/shiji/pass_pic5.jpg*/;
-	sithImage[10] = new Image; sithImage[10].src = "img/shiji/pass_pic6.jpg"/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/action/img/shiji/pass_pic6.jpg*/;
-	sithImage[11] = new Image; sithImage[11].src = "img/shiji/character_change_pic2.jpg"/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/action/img/shiji/character_change_pic2.jpg*/;
-	sithImage[12] = new Image; sithImage[12].src = "img/shiji/character_change_pic3.jpg"/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/action/img/shiji/character_change_pic3.jpg*/;
-	sithImage[13] = new Image; sithImage[13].src = "img/shiji/character_change_pic4.jpg"/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/action/img/shiji/character_change_pic4.jpg*/;
-	sithImage[14] = new Image; sithImage[14].src = "img/shiji/character_change_pic5.jpg"/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/action/img/shiji/character_change_pic5.jpg*/;
-	sithImage[15] = new Image; sithImage[15].src = "img/shiji/character_change_pic6.jpg"/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/action/img/shiji/character_change_pic6.jpg*/;
+	sithImage[1] = new Image; sithImage[1].src = "img/shiji/aliance_pic2.jpg";
+	sithImage[2] = new Image; sithImage[2].src = "img/shiji/aliance_pic3.jpg";
+	sithImage[3] = new Image; sithImage[3].src = "img/shiji/aliance_pic4.jpg";
+	sithImage[4] = new Image; sithImage[4].src = "img/shiji/sprit_pic2.jpg";
+	sithImage[5] = new Image; sithImage[5].src = "img/shiji/sprit_pic3.jpg";
+	sithImage[6] = new Image; sithImage[6].src = "img/shiji/pass_pic2.jpg";
+	sithImage[7] = new Image; sithImage[7].src = "img/shiji/pass_pic3.jpg";
+	sithImage[8] = new Image; sithImage[8].src = "img/shiji/pass_pic4.jpg";
+	sithImage[9] = new Image; sithImage[9].src = "img/shiji/pass_pic5.jpg";
+	sithImage[10] = new Image; sithImage[10].src = "img/shiji/pass_pic6.jpg";
+	sithImage[11] = new Image; sithImage[11].src = "img/shiji/character_change_pic2.jpg";
+	sithImage[12] = new Image; sithImage[12].src = "img/shiji/character_change_pic3.jpg";
+	sithImage[13] = new Image; sithImage[13].src = "img/shiji/character_change_pic4.jpg";
+	sithImage[14] = new Image; sithImage[14].src = "img/shiji/character_change_pic5.jpg";
+	sithImage[15] = new Image; sithImage[15].src = "img/shiji/character_change_pic6.jpg";
 	
-	sithImage[16] = new Image; sithImage[16].src = "img/shiji/invite_pic2.jpg"/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/action/img/shiji/invite_pic2.jpg*/;
-	sithImage[17] = new Image; sithImage[17].src = "img/shiji/invite_pic3.jpg"/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/action/img/shiji/invite_pic3.jpg*/;
-	sithImage[18] = new Image; sithImage[18].src = "img/shiji/invite_pic4.jpg"/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/action/img/shiji/invite_pic4.jpg*/;
-	sithImage[19] = new Image; sithImage[19].src = "img/shiji/invite_pic5.jpg"/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/action/img/shiji/invite_pic5.jpg*/;
-	sithImage[20] = new Image; sithImage[20].src = "img/shiji/invite_pic6.jpg"/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/action/img/shiji/invite_pic6.jpg*/;
-	sithImage[21] = new Image; sithImage[21].src = "img/shiji/invite_pic7.jpg"/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/action/img/shiji/invite_pic7.jpg*/;
-	sithImage[22] = new Image; sithImage[22].src = "img/shiji/invite_pic8.jpg"/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/action/img/shiji/invite_pic8.jpg*/;
-	sithImage[23] = new Image; sithImage[23].src = "img/shiji/invite_pic9.jpg"/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/action/img/shiji/invite_pic9.jpg*/;
-	sithImage[24] = new Image; sithImage[24].src = "img/shiji/invite_pic10.jpg"/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/action/img/shiji/invite_pic10.jpg*/;
-	sithImage[25] = new Image; sithImage[25].src = "img/shiji/invite_pic11.jpg"/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/action/img/shiji/invite_pic11.jpg*/;
-	sithImage[26] = new Image; sithImage[26].src = "img/shiji/invite_pic12.jpg"/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/action/img/shiji/invite_pic12.jpg*/;
-	sithImage[27] = new Image; sithImage[27].src = "img/shiji/invite_pic13.jpg"/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/action/img/shiji/invite_pic13.jpg*/;
-	sithImage[28] = new Image; sithImage[28].src = "img/shiji/invite_pic14.jpg"/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/action/img/shiji/invite_pic14.jpg*/;
-	sithImage[29] = new Image; sithImage[29].src = "img/shiji/invite_pic15.jpg"/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/action/img/shiji/invite_pic15.jpg*/;
-	sithImage[30] = new Image; sithImage[30].src = "img/shiji/invite_pic16.jpg"/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/action/img/shiji/invite_pic16.jpg*/;
+	sithImage[16] = new Image; sithImage[16].src = "img/shiji/invite_pic2.jpg";
+	sithImage[17] = new Image; sithImage[17].src = "img/shiji/invite_pic3.jpg";
+	sithImage[18] = new Image; sithImage[18].src = "img/shiji/invite_pic4.jpg";
+	sithImage[19] = new Image; sithImage[19].src = "img/shiji/invite_pic5.jpg";
+	sithImage[20] = new Image; sithImage[20].src = "img/shiji/invite_pic6.jpg";
+	sithImage[21] = new Image; sithImage[21].src = "img/shiji/invite_pic7.jpg";
+	sithImage[22] = new Image; sithImage[22].src = "img/shiji/invite_pic8.jpg";
+	sithImage[23] = new Image; sithImage[23].src = "img/shiji/invite_pic9.jpg";
+	sithImage[24] = new Image; sithImage[24].src = "img/shiji/invite_pic10.jpg";
+	sithImage[25] = new Image; sithImage[25].src = "img/shiji/invite_pic11.jpg";
+	sithImage[26] = new Image; sithImage[26].src = "img/shiji/invite_pic12.jpg";
+	sithImage[27] = new Image; sithImage[27].src = "img/shiji/invite_pic13.jpg";
+	sithImage[28] = new Image; sithImage[28].src = "img/shiji/invite_pic14.jpg";
+	sithImage[29] = new Image; sithImage[29].src = "img/shiji/invite_pic15.jpg";
+	sithImage[30] = new Image; sithImage[30].src = "img/shiji/invite_pic16.jpg";
 //-->
 </script>
 <style>
-	#action{ background: no-repeat url("../common/img/navi/navian_06_f.jpg")/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/common/img/navi/navian_06_f.jpg*/;}
+	#action{ background: no-repeat url(../common/img/navi/navian_06_f.jpg);}
 </style>
 </head>
-<body onLoad="head_foot_Preload(); g_navi_Preload(); MM_preloadImages('../common/img/navi/navi01.jpg'/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/common/img/navi/navi01.jpg*/,'../common/img/navi/navi01_f.jpg'/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/common/img/navi/navi01_f.jpg*/,'../common/img/navi/navi02.jpg'/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/common/img/navi/navi02.jpg*/,'../common/img/navi/navi02_f.jpg'/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/common/img/navi/navi02_f.jpg*/,'../common/img/navi/navi03.jpg'/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/common/img/navi/navi03.jpg*/,'../common/img/navi/navian_f_03.jpg'/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/common/img/navi/navian_f_03.jpg*/,'../common/img/navi/navi04.jpg'/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/common/img/navi/navi04.jpg*/,'../common/img/navi/navi04_f.jpg'/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/common/img/navi/navi04_f.jpg*/,'../common/img/navi/navi05.jpg'/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/common/img/navi/navi05.jpg*/,'../common/img/navi/navi05_f.jpg'/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/common/img/navi/navi05_f.jpg*/,'../common/img/navi/navi06.jpg'/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/common/img/navi/navi06.jpg*/,'../common/img/navi/navi06_f.jpg'/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/common/img/navi/navi06_f.jpg*/,'../common/img/navi/navi07.jpg'/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/common/img/navi/navi07.jpg*/,'../common/img/navi/navian_f_07.jpg'/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/common/img/navi/navian_f_07.jpg*/,'../common/img/navi/navi08.jpg'/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/common/img/navi/navi08.jpg*/,'../common/img/navi/navi08_f.jpg'/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/common/img/navi/navi08_f.jpg*/,'../common/img/navi/navi09.jpg'/*tpa=https://www.bandainamcoent.co.jp/cs/list/urban_reign/common/img/navi/navi09.jpg*/)">
+<body onLoad="head_foot_Preload(); g_navi_Preload(); MM_preloadImages('../common/img/navi/navi01.jpg','../common/img/navi/navi01_f.jpg','../common/img/navi/navi02.jpg','../common/img/navi/navi02_f.jpg','../common/img/navi/navi03.jpg','../common/img/navi/navian_f_03.jpg','../common/img/navi/navi04.jpg','../common/img/navi/navi04_f.jpg','../common/img/navi/navi05.jpg','../common/img/navi/navi05_f.jpg','../common/img/navi/navi06.jpg','../common/img/navi/navi06_f.jpg','../common/img/navi/navi07.jpg','../common/img/navi/navian_f_07.jpg','../common/img/navi/navi08.jpg','../common/img/navi/navi08_f.jpg','../common/img/navi/navi09.jpg')">
 <table width="100%"  border="0" cellspacing="0" cellpadding="0"><tr>
 <td align="center">
 <div id="mainBackground">
@@ -200,8 +199,8 @@ function bak(hoge){
 	<tr>
 		<td><table border="0" cellspacing="0" cellpadding="0">
         	<tr>
-        		<td><img src="../common/img/all/spacer.gif"  width="20" height="1"></td>
-        		<td><a href="../index.htm" ><img src="../common/img/all/site_id.jpg"  alt="URBAN REIGN" width="169" height="80" border="0"></a></td>
+        		<td><img src="../common/img/all/spacer.gif" width="20" height="1"></td>
+        		<td><a href="../"><img src="../common/img/all/site_id.jpg" alt="URBAN REIGN" width="169" height="80" border="0"></a></td>
         		</tr>
         	</table><a name="top"></a></td>
 		</tr>
@@ -209,22 +208,22 @@ function bak(hoge){
 		<td>
 <div id="navigation">
   <table border="0" cellspacing="0" cellpadding="0">
-      <tr>
-          <td id="left_bar"></td>
-          <td id="story"><a href=../story/><span>故事介绍</span></a></td>
-          <td id="chara"><a href=../character/><span>角色介绍</span></a></td>
-          <td id="guestchara"><a href=../guest_character/><span>特邀角色</span></a></td>
-          <td id="stage"><a href=../stage/><span>场景介绍</span></a></td>
-          <td id="mode"><a href=../mode/><span>模式介绍</span></a></td>
-          <td id="action"><a href=../action/><span>操作指南</span></a></td>
-          <td id="weapon"><a href=../weaponbattle/><span>武器格斗</span></a></td>
-          <td id="system"><a href=../battle_system/><span>系统</span></a></td>
-          <td id="movie"><a href=../download/><span>下载</span></a></td>
-          <td id="right_bar"></td>
-      </tr>
+    <tr>
+      <td id="left_bar"></td>
+      <td id="story"><a href=../story/><span>ストーリー</span></a></td>
+      <td id="chara"><a href=../character/><span>キャラクター紹介</span></a></td>
+	  <td id="guestchara"><a href=../guest_character/><span>ゲストキャラクター</span></a></td>
+      <td id="stage"><a href=../stage/><span>ステージ紹介</span></a></td>
+      <td id="mode"><a href=../mode/><span>モード</span></a></td>
+      <td id="action"><a href=../action/><span>アクション</span></a></td>
+      <td id="weapon"><a href=../weaponbattle/><span>武器格闘</span></a></td>
+      <td id="system"><a href=../battle_system/><span>システム</span></a></td>
+      <td id="movie"><a href=../download/><span>ダウンロード</span></a></td>
+      <td id="right_bar"></td>
+    </tr>
 	<tr>
 	  <td></td>
-      <td><img src="../namcollection/_common/img/all/spacer.gif"  width="1" height="10"></td>
+      <td><img src="../img/spacer.gif" width="1" height="10"></td>
       <td></td>
       <td></td>
       <td></td>
@@ -245,38 +244,38 @@ function bak(hoge){
       <td align="center"></td>
       <td align="center"></td>
       <td align="center"></td>
-      <td align="center"><img src="../common/img/all/new.gif" ></td>
+      <td align="center"><img src="../common/img/all/new.gif"></td>
       <td></td>
     </tr>
   </table>
 </div>
 
-		  <img src="img/lead.jpg"  alt="操作指南" width="760" height="53"></td>
+		  <img src="img/lead.jpg" alt="アクション" width="760" height="53"></td>
 		</tr>
 	<tr>
-	  <td><img src="../common/img/all/spacer.gif"  alt="" width="8" height="20"></td>
+	  <td><img src="../common/img/all/spacer.gif" alt="" width="8" height="20"></td>
 	  </tr>
 	<tr>
       <td align="right"><table border="0" cellpadding="0" cellspacing="0" class="navigationArea">
         <tr>
-          <td><img src="../common/img/all/spacer.gif"  alt="" width="10" height="10"></td>
-          <td><p align="left" class="para"><a class="lnavi" href="index.php.htm" >・操作指南</a></p></td>
-          <td><img src="../common/img/all/spacer.gif"  alt="" width="10" height="10"></td>
-          <td><p align="left" class="para"><a class="lnavi" href="target_change_combo.php.htm" >・目标切换连击</a></p></td>
+          <td><img src="../common/img/all/spacer.gif" alt="" width="10" height="10"></td>
+          <td><p align="left" class="para"><a class="lnavi" href="index.php.htm">・アクション</a></p></td>
+          <td><img src="../common/img/all/spacer.gif" alt="" width="10" height="10"></td>
+          <td><p align="left" class="para"><a class="lnavi" href="target_change_combo.php.htm">・ターゲットチェンジコンボ</a></p></td>
           <td><p class="para"></p></td>
         </tr>
         <tr class="para">
-          <td><span class="redLine"><img src="../common/img/all/spacer.gif"  alt="" width="10" height="10"></span></td>
-          <td><p align="left" class="para"><a href="divingcombo.php.htm" >・踩踢连击</a></p></td>
-          <td><img src="../common/img/all/spacer.gif"  alt="" width="10" height="10"></td>
-          <td><p align="left" class="para">・发出指示</p></td>
+          <td><span class="redLine"><img src="../common/img/all/spacer.gif" alt="" width="10" height="10"></span></td>
+          <td><p align="left" class="para"><a href="divingcombo.php.htm">・ダイビングコンボ</a></p></td>
+          <td><img src="../common/img/all/spacer.gif" alt="" width="10" height="10"></td>
+          <td><p align="left" class="para">・指示出し</p></td>
           <td><p class="para"></p></td>
         </tr>
         <tr class="para">
-          <td><img src="../common/img/all/spacer.gif"  alt="" width="10" height="10"></td>
-          <td><p class="para"align="left"><a class="lnavi" href="enemy.php.htm" >・挑衅敌人</a></p></td>
-          <td><img src="../common/img/all/spacer.gif"  alt="" width="10" height="10"></td>
-          <td><p align="left" class="para"><a class="lnavi" href="protection.php.htm" >・躲避攻击、反击、投技</a></p></td>
+          <td><img src="../common/img/all/spacer.gif" alt="" width="10" height="10"></td>
+          <td><p class="para"align="left"><a class="lnavi" href="enemy.php.htm">・敵の呼び寄せ</a></p></td>
+          <td><img src="../common/img/all/spacer.gif" alt="" width="10" height="10"></td>
+          <td><p align="left" class="para"><a class="lnavi" href="protection.php.htm">・打撃避け、打撃返し、投げ抜け</a></p></td>
           <td><p class="para"></p></td>
         </tr>
       </table></td>
@@ -285,29 +284,29 @@ function bak(hoge){
 		<td><div id="mainContentarea">
 		  <table border="0" cellpadding="0" cellspacing="0">
 		    <tr>
-              <td><span class="redLine"><img src="../common/img/all/spacer.gif"  alt="" width="10" height="10"></span></td>
+              <td><span class="redLine"><img src="../common/img/all/spacer.gif" alt="" width="10" height="10"></span></td>
 		      </tr>
 		    <tr>
-              <td align="left"><img src="img/shiji/lead.jpg"  alt="发出指示" width="201" height="30"></td>
+              <td align="left"><img src="img/shiji/lead.jpg" alt="指示出し" width="201" height="30"></td>
 		      </tr>
             <tr>
-              <td><p class="redLine"><img src="../common/img/all/spacer.gif"  alt="" width="1" height="15"></p></td>
+              <td><p class="redLine"><img src="../common/img/all/spacer.gif" alt="" width="1" height="15"></p></td>
             </tr>
             <tr>
               <td><table border="0" cellpadding="0" cellspacing="0" class="cellTable">
                 <tr>
-                  <td valign="top"><p class="para">在『君临都市』的战斗中、<br>
-                      可以对合作伙伴发出各种各样的指示。<BR>
-                      「请求使用合体技等配合」，「攻击另一个敌人」，<br>
-                      「传递武器」等。<BR>
-                      正确地下达指示，在多人作战中获得最佳效果！</p></td>
+                  <td valign="top"><p class="para">『アーバンレイン』のバトルでは、<br>
+                    パートナーに対して様々な指示を出すことができる。<BR>
+        「チーム攻撃などの協力を求める」、「別の敵を攻撃させる」、<br>
+        「武器をパスして貰う」等々。<BR>
+        的確に指示を出し、多人数格闘を上手くこなそう！</p></td>
                   <td class="chgImgArea">
                   <table width="202" border="0" cellpadding="0" cellspacing="0">
                       <tr>
-                        <td><img src="img/shiji/shiji_pic1.jpg"  width="202" height="156"></td>
+                        <td><img src="img/shiji/shiji_pic1.jpg" width="202" height="156"></td>
                       </tr>
                       <tr>
-                        <td><p class="para">在画面左下角显示出指示的图标。</p></td>
+                        <td><p class="para">画面左下に指示出しのアイコンが表示される。</p></td>
                       </tr>
                   </table></td>
                 </tr>
@@ -315,10 +314,10 @@ function bak(hoge){
               <p class="para"></p></td>
             </tr>
             <tr>
-              <td><img src="img/shiji/title01.gif"  alt="邀请合作伙伴进行合体技攻击" width="242" height="20"></td>
+              <td><img src="img/shiji/title01.gif" alt="パートナーをチーム攻撃に誘う" width="242" height="20"></td>
             </tr>
             <tr>
-              <td><span class="redLine"><img src="../common/img/all/spacer.gif"  alt="" width="1" height="15"></span></td>
+              <td><span class="redLine"><img src="../common/img/all/spacer.gif" alt="" width="1" height="15"></span></td>
             </tr>
             <tr>
               <td>
@@ -326,44 +325,44 @@ function bak(hoge){
                   <tr>
                     <td valign="top"><table border="0" cellspacing="0" cellpadding="0" class="chgImgAreaword">
                       <tr>
-                        <td><img src="img/shiji/icon1.gif"  width="50" height="35"></td>
+                        <td><img src="img/shiji/icon1.gif" width="50" height="35"></td>
                       </tr>
                       <tr>
-                        <td><p class="para">发出指示的话，伙伴会移动到合体技可以使用的位置。<BR>
-                            即使在抓投攻击等期间也可以发出此指令。<br>
-                            在这种情况下，合作伙伴将移动并移动到合体技攻击。</p></td>
+                        <td><p class="para">指示を出すとパートナーがチーム攻撃可能な位置に移動する。<BR>
+  この指示は掴み攻撃等の最中にも可能で、<br>
+  その場合パートナーが移動してチーム攻撃へと移行する。</p></td>
                       </tr>
                     </table></td>
                     <td class="chgImgArea"><table width="202" border="0" cellpadding="0" cellspacing="0">
                       <tr>
-                        <td><img src="img/shiji/invite_pic1.jpg"  alt="" name="IHI1" width="202" height="156" ID="IHI1"></td>
+                        <td><img src="img/shiji/invite_pic1.jpg" alt="" name="IHI1" width="202" height="156" ID="IHI1"></td>
                       </tr>
                       <tr>
                         <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
                             <tr>
-                              <td><a href="javascript:;" onClick="bak(1);"><img src="img/shiji/btn_back.gif"  alt="BACK"></a></td>
-                              <td align="right"><a href="javascript:;" onClick="nxt(1);"><img src="img/shiji/btn_next.gif"  alt="NEXT"></a></td>
+                              <td><a href="javascript:;" onClick="bak(1);"><img src="img/shiji/btn_back.gif" alt="BACK"></a></td>
+                              <td align="right"><a href="javascript:;" onClick="nxt(1);"><img src="img/shiji/btn_next.gif" alt="NEXT"></a></td>
                             </tr>
                         </table></td>
                       </tr>
 						  <tr>
 						  	<td height="100" valign="top">
-							<p id="cat1" class="para"><span class="dispchange">1/16</span><br>玩家和伙伴各自面对不同的敌人。</p>
-							<p id="cat2" class="para" style="display:none"><span class="dispchange">2/16</span><br>首先，玩家抓住敌人</p>
-							<p id="cat3" class="para" style="display:none"><span class="dispchange">3/16</span><br>邀请合作伙伴进行合体技攻击</p>
-							<p id="cat4" class="para" style="display:none"><span class="dispchange">4/16</span><br>伙伴跑向玩家</p>
-							<p id="cat5" class="para" style="display:none"><span class="dispchange">5/16</span><br>伙伴跑向玩家</p>
-							<p id="cat6" class="para" style="display:none"><span class="dispchange">6/16</span><br>伙伴跑向玩家</p>
-							<p id="cat7" class="para" style="display:none"><span class="dispchange">7/16</span><br>由伙伴和玩家组成的两人团队攻击</p>
-							<p id="cat8" class="para" style="display:none"><span class="dispchange">8/16</span><br>如果合作伙伴移动到可以进行合体技攻击的位置</p>
-							<p id="cat9" class="para" style="display:none"><span class="dispchange">9/16</span><br>自动过渡到合体技攻击</p>
-							<p id="cat10" class="para" style="display:none"><span class="dispchange">10/16</span><br>由伙伴和玩家组成的两人团队攻击</p>
-							<p id="cat11" class="para" style="display:none"><span class="dispchange">11/16</span><br>由伙伴和玩家组成的两人团队攻击</p>
-							<p id="cat12" class="para" style="display:none"><span class="dispchange">12/16</span><br>由伙伴和玩家组成的两人团队攻击</p>
-							<p id="cat13" class="para" style="display:none"><span class="dispchange">13/16</span><br>由伙伴和玩家组成的两人团队攻击</p>
-							<p id="cat14" class="para" style="display:none"><span class="dispchange">14/16</span><br>爆发力十足</p>
-							<p id="cat15" class="para" style="display:none"><span class="dispchange">15/16</span><br>爆发力十足</p>
-							<p id="cat16" class="para" style="display:none"><span class="dispchange">16/16</span><br>爆发力十足</p>
+							<p id="cat1" class="para"><span class="dispchange">1/16</span><br>プレイヤーとパートナーがそれぞれ違う敵を相手にしている。</p>
+							<p id="cat2" class="para" style="display:none"><span class="dispchange">2/16</span><br>まず、プレイヤーが敵を捕まえて</p>
+							<p id="cat3" class="para" style="display:none"><span class="dispchange">3/16</span><br>パートナーをチーム攻撃に誘う</p>
+							<p id="cat4" class="para" style="display:none"><span class="dispchange">4/16</span><br>パートナーはプレイヤーの方へ駆け寄り</p>
+							<p id="cat5" class="para" style="display:none"><span class="dispchange">5/16</span><br>パートナーはプレイヤーの方へ駆け寄り</p>
+							<p id="cat6" class="para" style="display:none"><span class="dispchange">6/16</span><br>パートナーはプレイヤーの方へ駆け寄り</p>
+							<p id="cat7" class="para" style="display:none"><span class="dispchange">7/16</span><br>パートナーとプレイヤーによる二人がかりのチーム攻撃が</p>
+							<p id="cat8" class="para" style="display:none"><span class="dispchange">8/16</span><br>パートナーがチーム攻撃が可能な位置へ移動すると</p>
+							<p id="cat9" class="para" style="display:none"><span class="dispchange">9/16</span><br>自動的にチーム攻撃へと移行する</p>
+							<p id="cat10" class="para" style="display:none"><span class="dispchange">10/16</span><br>パートナーとプレイヤーによる二人がかりのチーム攻撃が</p>
+							<p id="cat11" class="para" style="display:none"><span class="dispchange">11/16</span><br>パートナーとプレイヤーによる二人がかりのチーム攻撃が</p>
+							<p id="cat12" class="para" style="display:none"><span class="dispchange">12/16</span><br>パートナーとプレイヤーによる二人がかりのチーム攻撃が</p>
+							<p id="cat13" class="para" style="display:none"><span class="dispchange">13/16</span><br>パートナーとプレイヤーによる二人がかりのチーム攻撃が</p>
+							<p id="cat14" class="para" style="display:none"><span class="dispchange">14/16</span><br>見事に炸裂する</p>
+							<p id="cat15" class="para" style="display:none"><span class="dispchange">15/16</span><br>見事に炸裂する</p>
+							<p id="cat16" class="para" style="display:none"><span class="dispchange">16/16</span><br>見事に炸裂する</p>
 							</td>
 						  </tr>
                     </table></td>
@@ -372,45 +371,46 @@ function bak(hoge){
                 </td>
             </tr>
             <tr>
-              <td><span class="redLine"><img src="../common/img/all/spacer.gif"  alt="" width="1" height="60"></span></td>
+              <td><span class="redLine"><img src="../common/img/all/spacer.gif" alt="" width="1" height="60"></span></td>
             </tr>
             <tr>
-              <td><img src="img/shiji/title02.gif"  alt="向合作伙伴寻求合作" width="209" height="20"></td>
+              <td><img src="img/shiji/title02.gif" alt="パートナーに協力を求める" width="209" height="20"></td>
             </tr>
-            <tr><img src="../common/img/all/spacer.gif"  alt="" width="1" height="30">
-              <td><span class="redLine"><img src="../common/img/all/spacer.gif"  alt="" width="1" height="15"></span></td>
+            <tr><img src="../common/img/all/spacer.gif" alt="" width="1" height="30">
+              <td><span class="redLine"><img src="../common/img/all/spacer.gif" alt="" width="1" height="15"></span></td>
             </tr>
             <tr>
               <td><table border="0" cellpadding="0" cellspacing="0" class="cellTable">
                 <tr>
                   <td valign="top"><table border="0" cellspacing="0" cellpadding="0" class="chgImgAreaword">
                     <tr>
-                      <td><img src="img/shiji/icon2.gif"  width="50" height="50"></td>
+                      <td><img src="img/shiji/icon2.gif" width="50" height="50"></td>
                     </tr>
                     <tr>
-                      <td><p class="para">发出这个指示的话，伙伴会以和玩家一样的敌人为目标进行攻击。<br>
-                          这样就可以一起攻击同一个敌人，<br>
-                          受到攻击的时候会得到帮助。</p></td>
+                      <td><p class="para">この指示を出すとパートナーはプレイヤーと同じ敵を<br>
+                        ターゲットして攻撃する。<BR>
+  これにより、同じ敵を共に攻撃したり、<br>
+  攻撃を受けている時に助けてもらえる。</p></td>
                     </tr>
                   </table></td>
                   <td class="chgImgArea"><table width="202" border="0" cellpadding="0" cellspacing="0">
                     <tr>
-                      <td><img src="img/shiji/aliance_pic1.jpg"  alt="" name="IHI2" width="202" height="156" ID="IHI2"></td>
+                      <td><img src="img/shiji/aliance_pic1.jpg" alt="" name="IHI2" width="202" height="156" ID="IHI2"></td>
                     </tr>
                     <tr>
                       <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
                         <tr>
-                          <td><a href="javascript:;" onClick="bak(2);"><img src="img/shiji/btn_back.gif"  alt="BACK"></a></td>
-                          <td align="right"><a href="javascript:;" onClick="nxt(2);"><img src="img/shiji/btn_next.gif"  alt="NEXT"></a></td>
+                          <td><a href="javascript:;" onClick="bak(2);"><img src="img/shiji/btn_back.gif" alt="BACK"></a></td>
+                          <td align="right"><a href="javascript:;" onClick="nxt(2);"><img src="img/shiji/btn_next.gif" alt="NEXT"></a></td>
                         </tr>
                       </table></td>
                     </tr>
                     <tr>
                       <td height="130" valign="top">
-					  <p id="d2cat1" class="para"><span class="dispchange">1/4</span><br>玩家面对屏幕正面的敌人，而伙伴面对屏幕背面的其他敌人</p>
-						<p id="d2cat2" class="para" style="display:none"><span class="dispchange">2/4</span><br>如果发出指示请协助的话</p>
-						<p id="d2cat3" class="para" style="display:none"><span class="dispchange">3/4</span><br>把目标换成和玩家相同的对手</p>
-						<p id="d2cat4" class="para" style="display:none"><span class="dispchange">4/4</span><br>把目标换成和玩家相同的对手</p>
+					  <p id="d2cat1" class="para"><span class="dispchange">1/4</span><br>画面手前で敵を相手にしているプレイヤーと画面奥で他の敵を相手にしているパートナー</p>
+						<p id="d2cat2" class="para" style="display:none"><span class="dispchange">2/4</span><br>協力してくれるよう指示を出すと</p>
+						<p id="d2cat3" class="para" style="display:none"><span class="dispchange">3/4</span><br>ターゲットをプレイヤーと同じ相手に切り替えるぞ</p>
+						<p id="d2cat4" class="para" style="display:none"><span class="dispchange">4/4</span><br>ターゲットをプレイヤーと同じ相手に切り替えるぞ</p>
 						</td>
                     </tr>
                   </table></td>
@@ -419,43 +419,43 @@ function bak(hoge){
                 </td>
             </tr>
             <tr>
-              <td><span class="redLine"><img src="../common/img/all/spacer.gif"  alt="" width="1" height="30"><img src="../common/img/all/spacer.gif"  alt="" width="1" height="60"></span></td>
+              <td><span class="redLine"><img src="../common/img/all/spacer.gif" alt="" width="1" height="30"><img src="../common/img/all/spacer.gif" alt="" width="1" height="60"></span></td>
             </tr>
             <tr>
-              <td><img src="img/shiji/title03.gif"  alt="把其他敌人交给合作伙伴" width="246" height="20"></td>
+              <td><img src="img/shiji/title03.gif" alt="パートナーに他の敵をまかせる" width="246" height="20"></td>
             </tr>
             <tr>
-              <td><span class="redLine"><img src="../common/img/all/spacer.gif"  alt="" width="1" height="15"></span></td>
+              <td><span class="redLine"><img src="../common/img/all/spacer.gif" alt="" width="1" height="15"></span></td>
             </tr>
             <tr>
               <td><table border="0" cellpadding="0" cellspacing="0" class="cellTable">
                 <tr>
                   <td valign="top"><table border="0" cellspacing="0" cellpadding="0" class="chgImgAreaword">
                       <tr>
-                        <td><img src="img/shiji/icon3.gif"  width="50" height="50"></td>
+                        <td><img src="img/shiji/icon3.gif" width="50" height="50"></td>
                       </tr>
                       <tr>
-                        <td><p class="para">有了这个指令，<br>
-                            伙伴就会攻击一个不是玩家目标的敌人。<BR>
-                            也可以分敌。</p></td>
+                        <td><p class="para">この指示でパートナーはプレイヤーが<br>
+                          ターゲットとしていない敵を攻撃する。<BR>
+  敵を分断することも可能だ。</p></td>
                       </tr>
                   </table></td>
                   <td class="chgImgArea"><table width="202" border="0" cellpadding="0" cellspacing="0">
                     <tr>
-                      <td><img src="img/shiji/sprit_pic1.jpg"  alt="" name="IHI3" width="202" height="156" ID="IHI3"></td>
+                      <td><img src="img/shiji/sprit_pic1.jpg" alt="" name="IHI3" width="202" height="156" ID="IHI3"></td>
                     </tr>
                     <tr>
                       <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
                         <tr>
-                          <td><a href="javascript:;" onClick="bak(3);"><img src="img/shiji/btn_back.gif"  alt="BACK"></a></td>
-                          <td align="right"><a href="javascript:;" onClick="nxt(3);"><img src="img/shiji/btn_next.gif"  alt="NEXT"></a></td>
+                          <td><a href="javascript:;" onClick="bak(3);"><img src="img/shiji/btn_back.gif" alt="BACK"></a></td>
+                          <td align="right"><a href="javascript:;" onClick="nxt(3);"><img src="img/shiji/btn_next.gif" alt="NEXT"></a></td>
                         </tr>
                       </table></td>
                     </tr>
                     <tr>
-                      <td height="160" valign="top"><p id="d3cat1" class="para"><span class="dispchange">1/3</span><br>针对同一个敌人的伙伴</p>
-					  	<p id="d3cat2" class="para" style="display:none"><span class="dispchange">2/3</span><br>如果你指示你的伙伴把其他角色留给你</p>
-						<p id="d3cat3" class="para" style="display:none"><span class="dispchange">3/3</span><br>离开原地，将目标指向玩家不作为目标的敌人。如果你不想出手，或者你想分割敌人，这就很有用。</p></td>
+                      <td height="160" valign="top"><p id="d3cat1" class="para"><span class="dispchange">1/3</span><br>同じ敵をターゲットとしているパートナー</p>
+					  	<p id="d3cat2" class="para" style="display:none"><span class="dispchange">2/3</span><br>パートナーに他のキャラクターをまかせる指示を出すと</p>
+						<p id="d3cat3" class="para" style="display:none"><span class="dispchange">3/3</span><br>その場から離れ、プレイヤーがターゲットとしていない敵をターゲットにする。手出しをして欲しくない時、敵を分断させたい時などに有効だ。</p></td>
                     </tr>
                   </table></td>
                 </tr>
@@ -463,47 +463,47 @@ function bak(hoge){
                 </td>
             </tr>
             <tr>
-              <td><span class="redLine"><img src="../common/img/all/spacer.gif"  alt="" width="1" height="30"><img src="../common/img/all/spacer.gif"  alt="" width="1" height="60"></span></td>
+              <td><span class="redLine"><img src="../common/img/all/spacer.gif" alt="" width="1" height="30"><img src="../common/img/all/spacer.gif" alt="" width="1" height="60"></span></td>
             </tr>
             <tr>
-              <td><img src="img/shiji/title04.gif"  alt="要求传递武器、传递物品" width="271" height="20"></td>
+              <td><img src="img/shiji/title04.gif" alt="武器をパスしてもらう、パスをする" width="271" height="20"></td>
             </tr>
             <tr>
-              <td><span class="redLine"><img src="../common/img/all/spacer.gif"  alt="" width="1" height="15"></span></td>
+              <td><span class="redLine"><img src="../common/img/all/spacer.gif" alt="" width="1" height="15"></span></td>
             </tr>
             <tr>
               <td><table border="0" cellpadding="0" cellspacing="0" class="cellTable">
                 <tr>
                   <td valign="top"><table border="0" cellspacing="0" cellpadding="0" class="chgImgAreaword">
                       <tr>
-                        <td><img src="img/shiji/icon4.gif"  width="50" height="50"></td>
+                        <td><img src="img/shiji/icon4.gif" width="50" height="50"></td>
                       </tr>
                       <tr>
-                        <td><p class="para">通过此指令，<br>
-                            可以将你拥有的武器和物品传递给你的合作伙伴<br>
-                            也可以获得你的合作伙伴拥有的武器。</p></td>
+                        <td><p class="para">この指示で、自分が所持する武器やアイテムを<br>
+                          パートナーにパスしたり、パートナーが持つ武器などを<br>
+                          もらうことが出来る。</p></td>
                       </tr>
                   </table></td>
                   <td class="chgImgArea"><table width="202" border="0" cellpadding="0" cellspacing="0">
                     <tr>
-                      <td><img src="img/shiji/pass_pic1.jpg"  alt="" name="IHI4" width="202" height="156" ID="IHI4"></td>
+                      <td><img src="img/shiji/pass_pic1.jpg" alt="" name="IHI4" width="202" height="156" ID="IHI4"></td>
                     </tr>
                     <tr>
                       <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
                         <tr>
-                          <td><a href="javascript:;" onClick="bak(4);"><img src="img/shiji/btn_back.gif"  alt="BACK"></a></td>
-                          <td align="right"><a href="javascript:;" onClick="nxt(4);"><img src="img/shiji/btn_next.gif"  alt="NEXT"></a></td>
+                          <td><a href="javascript:;" onClick="bak(4);"><img src="img/shiji/btn_back.gif" alt="BACK"></a></td>
+                          <td align="right"><a href="javascript:;" onClick="nxt(4);"><img src="img/shiji/btn_next.gif" alt="NEXT"></a></td>
                         </tr>
                       </table></td>
                     </tr>
                     <tr>
                       <td height="75" valign="top">
-					  <p id="d4cat1" class="para"><span class="dispchange">1/6</span><br>玩家手持武器、发出武器传递指示</p>
-					  <p id="d4cat2" class="para" style="display:none"><span class="dispchange">2/6</span><br>玩家角色挥舞着武器</p>
-					  <p id="d4cat3" class="para" style="display:none"><span class="dispchange">3/6</span><br>扔给你的伙伴</p>
-					  <p id="d4cat4" class="para" style="display:none"><span class="dispchange">4/6</span><br>扔给你的伙伴</p>
-					  <p id="d4cat5" class="para" style="display:none"><span class="dispchange">5/6</span><br>屏幕后方的伙伴牢牢抓住武器</p>
-					  <p id="d4cat6" class="para" style="display:none"><span class="dispchange">6/6</span><br>屏幕后方的伙伴牢牢抓住武器</p>
+					  <p id="d4cat1" class="para"><span class="dispchange">1/6</span><br>プレイヤーが武器を手にして、武器パス指示を出す</p>
+					  <p id="d4cat2" class="para" style="display:none"><span class="dispchange">2/6</span><br>プレイヤーキャラが武器を振りかぶり</p>
+					  <p id="d4cat3" class="para" style="display:none"><span class="dispchange">3/6</span><br>パートナーへ向かって投げる</p>
+					  <p id="d4cat4" class="para" style="display:none"><span class="dispchange">4/6</span><br>パートナーへ向かって投げる</p>
+					  <p id="d4cat5" class="para" style="display:none"><span class="dispchange">5/6</span><br>画面奥のパートナーは武器をしっかりキャッチ</p>
+					  <p id="d4cat6" class="para" style="display:none"><span class="dispchange">6/6</span><br>画面奥のパートナーは武器をしっかりキャッチ</p>
 					  </td>
                     </tr>
                   </table></td>
@@ -512,48 +512,48 @@ function bak(hoge){
                 </td>
             </tr>
             <tr>
-              <td><span class="redLine"><img src="../common/img/all/spacer.gif"  alt="" width="1" height="30"><img src="../common/img/all/spacer.gif"  alt="" width="1" height="60"></span></td>
+              <td><span class="redLine"><img src="../common/img/all/spacer.gif" alt="" width="1" height="30"><img src="../common/img/all/spacer.gif" alt="" width="1" height="60"></span></td>
             </tr>
             <tr>
-              <td><img src="img/shiji/title05.gif"  alt="角色切换" width="164" height="20"></td>
+              <td><img src="img/shiji/title05.gif" alt="キャラクターチェンジ" width="164" height="20"></td>
             </tr>
             <tr>
-              <td><span class="redLine"><img src="../common/img/all/spacer.gif"  alt="" width="1" height="15"></span></td>
+              <td><span class="redLine"><img src="../common/img/all/spacer.gif" alt="" width="1" height="15"></span></td>
             </tr>
             <tr>
               <td><table border="0" cellpadding="0" cellspacing="0" class="cellTable">
                 <tr>
                   <td valign="top"><table border="0" cellspacing="0" cellpadding="0" class="chgImgAreaword">
                       <tr>
-                        <td><img src="img/shiji/icon6.gif"  width="50" height="50"></td>
+                        <td><img src="img/shiji/icon6.gif" width="50" height="50"></td>
                       </tr>
                       <tr>
-                        <td><p class="para">更换操作角色。<BR>
-                            如果进行这个操作的话，<br>
-                            操作角色被更换，可以操作伙伴。</p></td>
+                        <td><p class="para">操作キャラクターを入れ替える。<BR>
+  この操作をすると操作キャラクターが入れ替わり、<br>
+  パートナーを操作することが出来る。</p></td>
                       </tr>
                   </table></td>
                   <td class="chgImgArea">
                   <table width="202" border="0" cellpadding="0" cellspacing="0">
                     <tr>
-                      <td><img src="img/shiji/character_change_pic1.jpg"  alt="" name="IHI5" width="202" height="156" id="IHI5"></td>
+                      <td><img src="img/shiji/character_change_pic1.jpg" alt="" name="IHI5" width="202" height="156" id="IHI5"></td>
                     </tr>
                     <tr>
                       <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
                         <tr>
-                          <td><a href="javascript:;" onClick="bak(5);"><img src="img/shiji/btn_back.gif"  alt="BACK"></a></td>
-                          <td align="right"><a href="javascript:;" onClick="nxt(5);"><img src="img/shiji/btn_next.gif"  alt="NEXT"></a></td>
+                          <td><a href="javascript:;" onClick="bak(5);"><img src="img/shiji/btn_back.gif" alt="BACK"></a></td>
+                          <td align="right"><a href="javascript:;" onClick="nxt(5);"><img src="img/shiji/btn_next.gif" alt="NEXT"></a></td>
                         </tr>
                       </table></td>
                     </tr>
                     <tr>
                       <td height="80" valign="top">
-					  <p id="d5cat1" class="para"><span class="dispchange">1/6</span><br>操控主角布拉德·霍克</p>
-					  <p id="d5cat2" class="para" style="display:none"><span class="dispchange">2/6</span><br>通过给出指令改变角色</p>
-					  <p id="d5cat3" class="para" style="display:none"><span class="dispchange">3/6</span><br>通过给出指令改变角色</p>
-					  <p id="d5cat4" class="para" style="display:none"><span class="dispchange">4/6</span><br>体力槽的位置被替换了</p>
-					  <p id="d5cat5" class="para" style="display:none"><span class="dispchange">5/6</span><br>体力槽的位置被替换了</p>
-					  <p id="d5cat6" class="para" style="display:none"><span class="dispchange">6/6</span><br>操作角色转变为李顺英</p>
+					  <p id="d5cat1" class="para"><span class="dispchange">1/6</span><br>主人公であるブラッドホークを操作</p>
+					  <p id="d5cat2" class="para" style="display:none"><span class="dispchange">2/6</span><br>指示出しでキャラクターチェンジ…</p>
+					  <p id="d5cat3" class="para" style="display:none"><span class="dispchange">3/6</span><br>指示出しでキャラクターチェンジ…</p>
+					  <p id="d5cat4" class="para" style="display:none"><span class="dispchange">4/6</span><br>体力ゲージの位置が入れ替わり</p>
+					  <p id="d5cat5" class="para" style="display:none"><span class="dispchange">5/6</span><br>体力ゲージの位置が入れ替わり</p>
+					  <p id="d5cat6" class="para" style="display:none"><span class="dispchange">6/6</span><br>操作キャラクターがリー・シュンインに移り変わった</p>
 
 					  </td>
                     </tr>
@@ -574,8 +574,8 @@ function bak(hoge){
 	<tr>
 		<td align="right"><table width="100%" border="0" cellpadding="0" cellspacing="0">
           <tr>
-            <td align="left"><p class="para" id="gotop"><a href="../index.htm" >返回首页</a></p></td>
-            <td align="right"><p id="gotop" class="para"><a href="instruction.php.htm" >返回本页首页</a></p></td>
+            <td align="left"><p class="para" id="gotop"><a href="../">トップへ戻る</a></p></td>
+            <td align="right"><p id="gotop"class="para"><a href="instruction.php.htm">このページの先頭に戻る</a></p></td>
           </tr>
         </table></td>
 	</tr>
@@ -586,10 +586,6 @@ function bak(hoge){
 </div>
 </div></td>
 </tr>
-<tr>
-<td><!--フッター読み込みここから-->
-<script src="../../../../../www.bandainamcogames.co.jp/common/include/products/euc/black/footer01.js"  type="text/javascript" language="JavaScript"></script>
-<!--フッター読み込みここまで-->
-</td></tr></table>
+</table>
 </body>
 </html>
