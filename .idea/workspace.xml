@@ -4,7 +4,62 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6824e3a-c1de-41cd-a75a-bc7b4a2bc544" name="变更" comment="测试" />
+    <list default="true" id="b6824e3a-c1de-41cd-a75a-bc7b4a2bc544" name="变更" comment="测试">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action/divingcombo.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/action/divingcombo.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action/enemy.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/action/enemy.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/action/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action/index.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/action/index.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action/instruction.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/action/instruction.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action/protection.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/action/protection.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action/target_change_combo.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/action/target_change_combo.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battle_system/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/battle_system/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battle_system/index.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/battle_system/index.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battle_system/player_ablity.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/battle_system/player_ablity.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character/alex.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/character/alex.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character/chris.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/character/chris.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character/dwayne.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/character/dwayne.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character/enemy.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/character/enemy.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character/glen.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/character/glen.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character/grimm.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/character/grimm.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character/hawk.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/character/hawk.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/character/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character/index.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/character/index.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character/jake.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/character/jake.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character/kadonashi.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/character/kadonashi.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character/kelly.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/character/kelly.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character/lee.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/character/lee.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character/lilian.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/character/lilian.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character/park.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/character/park.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character/tong.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/character/tong.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character/vera_ross.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/character/vera_ross.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/css/urban_reign.css" beforeDir="false" afterPath="$PROJECT_DIR$/common/css/urban_reign.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/download/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/index.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/download/index.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/wallpaper.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/download/wallpaper.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/wallpaper_illust.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/download/wallpaper_illust.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guest_character/10comb.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/guest_character/10comb.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guest_character/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/guest_character/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guest_character/index.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/guest_character/index.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mode/challenge.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/mode/challenge.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mode/freemode.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/mode/freemode.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mode/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/mode/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mode/index.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/mode/index.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mode/multiplaymode.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/mode/multiplaymode.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/stage/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage/index.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/stage/index.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage/multiplaystage.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/stage/multiplaystage.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage/stage2.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/stage/stage2.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage/stage3.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/stage/stage3.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage/stage4.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/stage/stage4.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage/stage5.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/stage/stage5.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage/stage6.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/stage/stage6.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/story/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/story/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/story/index.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/story/index.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weaponbattle/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/weaponbattle/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weaponbattle/index.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/weaponbattle/index.php.htm" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +103,7 @@
       <workItem from="1643411330149" duration="36110000" />
       <workItem from="1643454956767" duration="9180000" />
       <workItem from="1643514221051" duration="706000" />
-      <workItem from="1644540375217" duration="1484000" />
+      <workItem from="1644540375217" duration="31993000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1644540638657</created>
@@ -64,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644541737886</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="测试">
+      <created>1644542124053</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1644542124053</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

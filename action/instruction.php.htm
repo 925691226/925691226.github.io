@@ -6,7 +6,7 @@
 <meta name="robots" content="INDEX,FOLLOW">
 <meta http-equiv="content-Script-Type" content="text/javascript">
 <meta http-equiv="content-style-type" content="text/css">
-<title>PS2/アーバンレイン | アクション | バンダイナムコゲームス公式サイト</title>
+<title>PS2/君临都市 | 动作 | 中文网站</title>
 <link href="../common/css/urban_reign.css" rel="stylesheet" type="text/css">
 
 <script>
@@ -114,7 +114,7 @@ function disp5(hoge) {
 
 
 
-// 実行キー
+// 执行按钮
 function Imgreload1(hoge){
 switch (hoge){
 	case 1:
@@ -139,13 +139,13 @@ switch (hoge){
 		break;
 }
 }
-//次へのボタン挙動
+//下一步按钮行为
 function nxt(hoge){
 	imgNum[hoge] ++;
 	if (imgMax[hoge] < imgNum[hoge]) imgNum[hoge] = 1;
 	Imgreload1(hoge);
 }
-//前へのボタン挙動
+//上一步按钮行为
 function bak(hoge){
 	imgNum[hoge] --;
 	if (imgNum[hoge] < 1) imgNum[hoge] = imgMax[hoge];
@@ -210,15 +210,15 @@ function bak(hoge){
   <table border="0" cellspacing="0" cellpadding="0">
     <tr>
       <td id="left_bar"></td>
-      <td id="story"><a href=../story/><span>ストーリー</span></a></td>
-      <td id="chara"><a href=../character/><span>キャラクター紹介</span></a></td>
-	  <td id="guestchara"><a href=../guest_character/><span>ゲストキャラクター</span></a></td>
-      <td id="stage"><a href=../stage/><span>ステージ紹介</span></a></td>
-      <td id="mode"><a href=../mode/><span>モード</span></a></td>
-      <td id="action"><a href=../action/><span>アクション</span></a></td>
-      <td id="weapon"><a href=../weaponbattle/><span>武器格闘</span></a></td>
-      <td id="system"><a href=../battle_system/><span>システム</span></a></td>
-      <td id="movie"><a href=../download/><span>ダウンロード</span></a></td>
+      <td id="story"><a href=../story/><span>剧情</span></a></td>
+      <td id="chara"><a href=../character/><span>角色介绍</span></a></td>
+	  <td id="guestchara"><a href=../guest_character/><span>特邀角色</span></a></td>
+      <td id="stage"><a href=../stage/><span>场景介绍</span></a></td>
+      <td id="mode"><a href=../mode/><span>模式</span></a></td>
+      <td id="action"><a href=../action/><span>操作</span></a></td>
+      <td id="weapon"><a href=../weaponbattle/><span>武器格斗</span></a></td>
+      <td id="system"><a href=../battle_system/><span>系统</span></a></td>
+      <td id="movie"><a href=../download/><span>下载</span></a></td>
       <td id="right_bar"></td>
     </tr>
 	<tr>
@@ -250,7 +250,7 @@ function bak(hoge){
   </table>
 </div>
 
-		  <img src="img/lead.jpg" alt="アクション" width="760" height="53"></td>
+		  <img src="img/lead.jpg" alt="动作" width="760" height="53"></td>
 		</tr>
 	<tr>
 	  <td><img src="../common/img/all/spacer.gif" alt="" width="8" height="20"></td>
@@ -259,23 +259,23 @@ function bak(hoge){
       <td align="right"><table border="0" cellpadding="0" cellspacing="0" class="navigationArea">
         <tr>
           <td><img src="../common/img/all/spacer.gif" alt="" width="10" height="10"></td>
-          <td><p align="left" class="para"><a class="lnavi" href="index.php.htm">・アクション</a></p></td>
+          <td><p align="left" class="para"><a class="lnavi" href="index.php.htm">・动作</a></p></td>
           <td><img src="../common/img/all/spacer.gif" alt="" width="10" height="10"></td>
-          <td><p align="left" class="para"><a class="lnavi" href="target_change_combo.php.htm">・ターゲットチェンジコンボ</a></p></td>
+          <td><p align="left" class="para"><a class="lnavi" href="target_change_combo.php.htm">・目标切换连击</a></p></td>
           <td><p class="para"></p></td>
         </tr>
         <tr class="para">
           <td><span class="redLine"><img src="../common/img/all/spacer.gif" alt="" width="10" height="10"></span></td>
-          <td><p align="left" class="para"><a href="divingcombo.php.htm">・ダイビングコンボ</a></p></td>
+          <td><p align="left" class="para"><a href="divingcombo.php.htm">・踩踢连击</a></p></td>
           <td><img src="../common/img/all/spacer.gif" alt="" width="10" height="10"></td>
-          <td><p align="left" class="para">・指示出し</p></td>
+          <td><p align="left" class="para">・发出指令</p></td>
           <td><p class="para"></p></td>
         </tr>
         <tr class="para">
           <td><img src="../common/img/all/spacer.gif" alt="" width="10" height="10"></td>
-          <td><p class="para"align="left"><a class="lnavi" href="enemy.php.htm">・敵の呼び寄せ</a></p></td>
+          <td><p class="para"align="left"><a class="lnavi" href="enemy.php.htm">・挑衅敌人</a></p></td>
           <td><img src="../common/img/all/spacer.gif" alt="" width="10" height="10"></td>
-          <td><p align="left" class="para"><a class="lnavi" href="protection.php.htm">・打撃避け、打撃返し、投げ抜け</a></p></td>
+          <td><p align="left" class="para"><a class="lnavi" href="protection.php.htm">・躲避攻击、反击、投技</a></p></td>
           <td><p class="para"></p></td>
         </tr>
       </table></td>
@@ -287,7 +287,7 @@ function bak(hoge){
               <td><span class="redLine"><img src="../common/img/all/spacer.gif" alt="" width="10" height="10"></span></td>
 		      </tr>
 		    <tr>
-              <td align="left"><img src="img/shiji/lead.jpg" alt="指示出し" width="201" height="30"></td>
+              <td align="left"><img src="img/shiji/lead.jpg" alt="发出指令" width="201" height="30"></td>
 		      </tr>
             <tr>
               <td><p class="redLine"><img src="../common/img/all/spacer.gif" alt="" width="1" height="15"></p></td>
@@ -295,18 +295,18 @@ function bak(hoge){
             <tr>
               <td><table border="0" cellpadding="0" cellspacing="0" class="cellTable">
                 <tr>
-                  <td valign="top"><p class="para">『アーバンレイン』のバトルでは、<br>
-                    パートナーに対して様々な指示を出すことができる。<BR>
-        「チーム攻撃などの協力を求める」、「別の敵を攻撃させる」、<br>
-        「武器をパスして貰う」等々。<BR>
-        的確に指示を出し、多人数格闘を上手くこなそう！</p></td>
+                  <td valign="top"><p class="para">在『君临都市』的战斗中、<br>
+                      可以对伙伴发出各种各样的指令。<BR>
+        「请求伙伴进行合体技攻击」、「攻击其他敌人」、<br>
+        「传递武器」等等。<BR>
+                      正确下达指令、掌握多人作战的技巧！</p></td>
                   <td class="chgImgArea">
                   <table width="202" border="0" cellpadding="0" cellspacing="0">
                       <tr>
                         <td><img src="img/shiji/shiji_pic1.jpg" width="202" height="156"></td>
                       </tr>
                       <tr>
-                        <td><p class="para">画面左下に指示出しのアイコンが表示される。</p></td>
+                        <td><p class="para">在画面左下角显示指令图标。</p></td>
                       </tr>
                   </table></td>
                 </tr>
@@ -314,7 +314,7 @@ function bak(hoge){
               <p class="para"></p></td>
             </tr>
             <tr>
-              <td><img src="img/shiji/title01.gif" alt="パートナーをチーム攻撃に誘う" width="242" height="20"></td>
+              <td><img src="img/shiji/title01.gif" alt="请求伙伴进行合体技攻击" width="242" height="20"></td>
             </tr>
             <tr>
               <td><span class="redLine"><img src="../common/img/all/spacer.gif" alt="" width="1" height="15"></span></td>
@@ -328,9 +328,9 @@ function bak(hoge){
                         <td><img src="img/shiji/icon1.gif" width="50" height="35"></td>
                       </tr>
                       <tr>
-                        <td><p class="para">指示を出すとパートナーがチーム攻撃可能な位置に移動する。<BR>
-  この指示は掴み攻撃等の最中にも可能で、<br>
-  その場合パートナーが移動してチーム攻撃へと移行する。</p></td>
+                        <td><p class="para">发出指令后伙伴会移动到合体技可以触发的位置。<BR>
+                            即使在抓投攻击等期间也可以发出此指令、<br>
+                            在此情况下，伙伴将移动到合体技攻击可以触发的位置。</p></td>
                       </tr>
                     </table></td>
                     <td class="chgImgArea"><table width="202" border="0" cellpadding="0" cellspacing="0">
@@ -340,29 +340,29 @@ function bak(hoge){
                       <tr>
                         <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
                             <tr>
-                              <td><a href="javascript:;" onClick="bak(1);"><img src="img/shiji/btn_back.gif" alt="BACK"></a></td>
-                              <td align="right"><a href="javascript:;" onClick="nxt(1);"><img src="img/shiji/btn_next.gif" alt="NEXT"></a></td>
+                              <td><a href="javascript:;" onClick="bak(1);"><img src="img/shiji/btn_back.gif" alt="返回"></a></td>
+                              <td align="right"><a href="javascript:;" onClick="nxt(1);"><img src="img/shiji/btn_next.gif" alt="下一步"></a></td>
                             </tr>
                         </table></td>
                       </tr>
 						  <tr>
 						  	<td height="100" valign="top">
-							<p id="cat1" class="para"><span class="dispchange">1/16</span><br>プレイヤーとパートナーがそれぞれ違う敵を相手にしている。</p>
-							<p id="cat2" class="para" style="display:none"><span class="dispchange">2/16</span><br>まず、プレイヤーが敵を捕まえて</p>
-							<p id="cat3" class="para" style="display:none"><span class="dispchange">3/16</span><br>パートナーをチーム攻撃に誘う</p>
-							<p id="cat4" class="para" style="display:none"><span class="dispchange">4/16</span><br>パートナーはプレイヤーの方へ駆け寄り</p>
-							<p id="cat5" class="para" style="display:none"><span class="dispchange">5/16</span><br>パートナーはプレイヤーの方へ駆け寄り</p>
-							<p id="cat6" class="para" style="display:none"><span class="dispchange">6/16</span><br>パートナーはプレイヤーの方へ駆け寄り</p>
-							<p id="cat7" class="para" style="display:none"><span class="dispchange">7/16</span><br>パートナーとプレイヤーによる二人がかりのチーム攻撃が</p>
-							<p id="cat8" class="para" style="display:none"><span class="dispchange">8/16</span><br>パートナーがチーム攻撃が可能な位置へ移動すると</p>
-							<p id="cat9" class="para" style="display:none"><span class="dispchange">9/16</span><br>自動的にチーム攻撃へと移行する</p>
-							<p id="cat10" class="para" style="display:none"><span class="dispchange">10/16</span><br>パートナーとプレイヤーによる二人がかりのチーム攻撃が</p>
-							<p id="cat11" class="para" style="display:none"><span class="dispchange">11/16</span><br>パートナーとプレイヤーによる二人がかりのチーム攻撃が</p>
-							<p id="cat12" class="para" style="display:none"><span class="dispchange">12/16</span><br>パートナーとプレイヤーによる二人がかりのチーム攻撃が</p>
-							<p id="cat13" class="para" style="display:none"><span class="dispchange">13/16</span><br>パートナーとプレイヤーによる二人がかりのチーム攻撃が</p>
-							<p id="cat14" class="para" style="display:none"><span class="dispchange">14/16</span><br>見事に炸裂する</p>
-							<p id="cat15" class="para" style="display:none"><span class="dispchange">15/16</span><br>見事に炸裂する</p>
-							<p id="cat16" class="para" style="display:none"><span class="dispchange">16/16</span><br>見事に炸裂する</p>
+							<p id="cat1" class="para"><span class="dispchange">1/16</span><br>玩家和伙伴各自面对不同的敌人。</p>
+							<p id="cat2" class="para" style="display:none"><span class="dispchange">2/16</span><br>首先，玩家抓住敌人</p>
+							<p id="cat3" class="para" style="display:none"><span class="dispchange">3/16</span><br>请求伙伴进行合体技攻击</p>
+							<p id="cat4" class="para" style="display:none"><span class="dispchange">4/16</span><br>伙伴跑向玩家</p>
+							<p id="cat5" class="para" style="display:none"><span class="dispchange">5/16</span><br>伙伴跑向玩家</p>
+							<p id="cat6" class="para" style="display:none"><span class="dispchange">6/16</span><br>伙伴跑向玩家</p>
+							<p id="cat7" class="para" style="display:none"><span class="dispchange">7/16</span><br>由伙伴和玩家组成的两人团队攻击</p>
+							<p id="cat8" class="para" style="display:none"><span class="dispchange">8/16</span><br>如果伙伴移动到可以进行合体技攻击的位置</p>
+							<p id="cat9" class="para" style="display:none"><span class="dispchange">9/16</span><br>自动过渡到合体技攻击</p>
+							<p id="cat10" class="para" style="display:none"><span class="dispchange">10/16</span><br>伙伴和玩家使出的双人合体技</p>
+							<p id="cat11" class="para" style="display:none"><span class="dispchange">11/16</span><br>伙伴和玩家使出的双人合体技</p>
+							<p id="cat12" class="para" style="display:none"><span class="dispchange">12/16</span><br>伙伴和玩家使出的双人合体技</p>
+							<p id="cat13" class="para" style="display:none"><span class="dispchange">13/16</span><br>伙伴和玩家使出的双人合体技</p>
+							<p id="cat14" class="para" style="display:none"><span class="dispchange">14/16</span><br>爆发力十足</p>
+							<p id="cat15" class="para" style="display:none"><span class="dispchange">15/16</span><br>爆发力十足</p>
+							<p id="cat16" class="para" style="display:none"><span class="dispchange">16/16</span><br>爆发力十足</p>
 							</td>
 						  </tr>
                     </table></td>
@@ -374,7 +374,7 @@ function bak(hoge){
               <td><span class="redLine"><img src="../common/img/all/spacer.gif" alt="" width="1" height="60"></span></td>
             </tr>
             <tr>
-              <td><img src="img/shiji/title02.gif" alt="パートナーに協力を求める" width="209" height="20"></td>
+              <td><img src="img/shiji/title02.gif" alt="向伙伴请求协助" width="209" height="20"></td>
             </tr>
             <tr><img src="../common/img/all/spacer.gif" alt="" width="1" height="30">
               <td><span class="redLine"><img src="../common/img/all/spacer.gif" alt="" width="1" height="15"></span></td>
@@ -387,10 +387,10 @@ function bak(hoge){
                       <td><img src="img/shiji/icon2.gif" width="50" height="50"></td>
                     </tr>
                     <tr>
-                      <td><p class="para">この指示を出すとパートナーはプレイヤーと同じ敵を<br>
-                        ターゲットして攻撃する。<BR>
-  これにより、同じ敵を共に攻撃したり、<br>
-  攻撃を受けている時に助けてもらえる。</p></td>
+                      <td><p class="para">发出此指令<br>
+                          伙伴会以玩家攻击的敌人为目标进行攻击。<BR>
+                          这样就可以一起攻击同一个敌人、<br>
+                          受到攻击的时候会得到帮助。</p></td>
                     </tr>
                   </table></td>
                   <td class="chgImgArea"><table width="202" border="0" cellpadding="0" cellspacing="0">
@@ -400,17 +400,17 @@ function bak(hoge){
                     <tr>
                       <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
                         <tr>
-                          <td><a href="javascript:;" onClick="bak(2);"><img src="img/shiji/btn_back.gif" alt="BACK"></a></td>
-                          <td align="right"><a href="javascript:;" onClick="nxt(2);"><img src="img/shiji/btn_next.gif" alt="NEXT"></a></td>
+                          <td><a href="javascript:;" onClick="bak(2);"><img src="img/shiji/btn_back.gif" alt="返回"></a></td>
+                          <td align="right"><a href="javascript:;" onClick="nxt(2);"><img src="img/shiji/btn_next.gif" alt="下一步"></a></td>
                         </tr>
                       </table></td>
                     </tr>
                     <tr>
                       <td height="130" valign="top">
-					  <p id="d2cat1" class="para"><span class="dispchange">1/4</span><br>画面手前で敵を相手にしているプレイヤーと画面奥で他の敵を相手にしているパートナー</p>
-						<p id="d2cat2" class="para" style="display:none"><span class="dispchange">2/4</span><br>協力してくれるよう指示を出すと</p>
-						<p id="d2cat3" class="para" style="display:none"><span class="dispchange">3/4</span><br>ターゲットをプレイヤーと同じ相手に切り替えるぞ</p>
-						<p id="d2cat4" class="para" style="display:none"><span class="dispchange">4/4</span><br>ターゲットをプレイヤーと同じ相手に切り替えるぞ</p>
+					  <p id="d2cat1" class="para"><span class="dispchange">1/4</span><br>玩家面对画面前的敌人，而伙伴面对画面外的其他敌人</p>
+						<p id="d2cat2" class="para" style="display:none"><span class="dispchange">2/4</span><br>如果发出请协助指令</p>
+						<p id="d2cat3" class="para" style="display:none"><span class="dispchange">3/4</span><br>把目标换成和玩家相同的敌人</p>
+						<p id="d2cat4" class="para" style="display:none"><span class="dispchange">4/4</span><br>把目标换成和玩家相同的敌人</p>
 						</td>
                     </tr>
                   </table></td>
@@ -422,7 +422,7 @@ function bak(hoge){
               <td><span class="redLine"><img src="../common/img/all/spacer.gif" alt="" width="1" height="30"><img src="../common/img/all/spacer.gif" alt="" width="1" height="60"></span></td>
             </tr>
             <tr>
-              <td><img src="img/shiji/title03.gif" alt="パートナーに他の敵をまかせる" width="246" height="20"></td>
+              <td><img src="img/shiji/title03.gif" alt="把其他敌人交给伙伴" width="246" height="20"></td>
             </tr>
             <tr>
               <td><span class="redLine"><img src="../common/img/all/spacer.gif" alt="" width="1" height="15"></span></td>
@@ -435,9 +435,9 @@ function bak(hoge){
                         <td><img src="img/shiji/icon3.gif" width="50" height="50"></td>
                       </tr>
                       <tr>
-                        <td><p class="para">この指示でパートナーはプレイヤーが<br>
-                          ターゲットとしていない敵を攻撃する。<BR>
-  敵を分断することも可能だ。</p></td>
+                        <td><p class="para">使用此指令<br>
+                            伙伴就会攻击玩家没有瞄准的敌人。<BR>
+  也可以分散敌人。</p></td>
                       </tr>
                   </table></td>
                   <td class="chgImgArea"><table width="202" border="0" cellpadding="0" cellspacing="0">
@@ -447,15 +447,15 @@ function bak(hoge){
                     <tr>
                       <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
                         <tr>
-                          <td><a href="javascript:;" onClick="bak(3);"><img src="img/shiji/btn_back.gif" alt="BACK"></a></td>
-                          <td align="right"><a href="javascript:;" onClick="nxt(3);"><img src="img/shiji/btn_next.gif" alt="NEXT"></a></td>
+                          <td><a href="javascript:;" onClick="bak(3);"><img src="img/shiji/btn_back.gif" alt="返回"></a></td>
+                          <td align="right"><a href="javascript:;" onClick="nxt(3);"><img src="img/shiji/btn_next.gif" alt="下一步"></a></td>
                         </tr>
                       </table></td>
                     </tr>
                     <tr>
-                      <td height="160" valign="top"><p id="d3cat1" class="para"><span class="dispchange">1/3</span><br>同じ敵をターゲットとしているパートナー</p>
-					  	<p id="d3cat2" class="para" style="display:none"><span class="dispchange">2/3</span><br>パートナーに他のキャラクターをまかせる指示を出すと</p>
-						<p id="d3cat3" class="para" style="display:none"><span class="dispchange">3/3</span><br>その場から離れ、プレイヤーがターゲットとしていない敵をターゲットにする。手出しをして欲しくない時、敵を分断させたい時などに有効だ。</p></td>
+                      <td height="160" valign="top"><p id="d3cat1" class="para"><span class="dispchange">1/3</span><br>针对同一敌人的伙伴</p>
+					  	<p id="d3cat2" class="para" style="display:none"><span class="dispchange">2/3</span><br>指示伙伴攻击其他敌人</p>
+						<p id="d3cat3" class="para" style="display:none"><span class="dispchange">3/3</span><br>伙伴离开并瞄准玩家没有瞄准的敌人。当你不想动手，或者当你想分散敌人时，这很有效。</p></td>
                     </tr>
                   </table></td>
                 </tr>
@@ -466,7 +466,7 @@ function bak(hoge){
               <td><span class="redLine"><img src="../common/img/all/spacer.gif" alt="" width="1" height="30"><img src="../common/img/all/spacer.gif" alt="" width="1" height="60"></span></td>
             </tr>
             <tr>
-              <td><img src="img/shiji/title04.gif" alt="武器をパスしてもらう、パスをする" width="271" height="20"></td>
+              <td><img src="img/shiji/title04.gif" alt="请求传递武器" width="271" height="20"></td>
             </tr>
             <tr>
               <td><span class="redLine"><img src="../common/img/all/spacer.gif" alt="" width="1" height="15"></span></td>
@@ -479,9 +479,9 @@ function bak(hoge){
                         <td><img src="img/shiji/icon4.gif" width="50" height="50"></td>
                       </tr>
                       <tr>
-                        <td><p class="para">この指示で、自分が所持する武器やアイテムを<br>
-                          パートナーにパスしたり、パートナーが持つ武器などを<br>
-                          もらうことが出来る。</p></td>
+                        <td><p class="para">通过此指令<br>
+                            可以将你持有武器或物品传递给你的伙伴、<br>
+                            也可以获得你的伙伴持有的武器或者物品。</p></td>
                       </tr>
                   </table></td>
                   <td class="chgImgArea"><table width="202" border="0" cellpadding="0" cellspacing="0">
@@ -491,19 +491,19 @@ function bak(hoge){
                     <tr>
                       <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
                         <tr>
-                          <td><a href="javascript:;" onClick="bak(4);"><img src="img/shiji/btn_back.gif" alt="BACK"></a></td>
-                          <td align="right"><a href="javascript:;" onClick="nxt(4);"><img src="img/shiji/btn_next.gif" alt="NEXT"></a></td>
+                          <td><a href="javascript:;" onClick="bak(4);"><img src="img/shiji/btn_back.gif" alt="返回"></a></td>
+                          <td align="right"><a href="javascript:;" onClick="nxt(4);"><img src="img/shiji/btn_next.gif" alt="下一步"></a></td>
                         </tr>
                       </table></td>
                     </tr>
                     <tr>
                       <td height="75" valign="top">
-					  <p id="d4cat1" class="para"><span class="dispchange">1/6</span><br>プレイヤーが武器を手にして、武器パス指示を出す</p>
-					  <p id="d4cat2" class="para" style="display:none"><span class="dispchange">2/6</span><br>プレイヤーキャラが武器を振りかぶり</p>
-					  <p id="d4cat3" class="para" style="display:none"><span class="dispchange">3/6</span><br>パートナーへ向かって投げる</p>
-					  <p id="d4cat4" class="para" style="display:none"><span class="dispchange">4/6</span><br>パートナーへ向かって投げる</p>
-					  <p id="d4cat5" class="para" style="display:none"><span class="dispchange">5/6</span><br>画面奥のパートナーは武器をしっかりキャッチ</p>
-					  <p id="d4cat6" class="para" style="display:none"><span class="dispchange">6/6</span><br>画面奥のパートナーは武器をしっかりキャッチ</p>
+					  <p id="d4cat1" class="para"><span class="dispchange">1/6</span><br>玩家手持武器、发出武器传递指示</p>
+					  <p id="d4cat2" class="para" style="display:none"><span class="dispchange">2/6</span><br>玩家角色挥动着武器</p>
+					  <p id="d4cat3" class="para" style="display:none"><span class="dispchange">3/6</span><br>扔给你的伙伴</p>
+					  <p id="d4cat4" class="para" style="display:none"><span class="dispchange">4/6</span><br>扔给你的伙伴</p>
+					  <p id="d4cat5" class="para" style="display:none"><span class="dispchange">5/6</span><br>屏幕后方的伙伴牢牢抓住武器</p>
+					  <p id="d4cat6" class="para" style="display:none"><span class="dispchange">6/6</span><br>屏幕后方的伙伴牢牢抓住武器</p>
 					  </td>
                     </tr>
                   </table></td>
@@ -515,7 +515,7 @@ function bak(hoge){
               <td><span class="redLine"><img src="../common/img/all/spacer.gif" alt="" width="1" height="30"><img src="../common/img/all/spacer.gif" alt="" width="1" height="60"></span></td>
             </tr>
             <tr>
-              <td><img src="img/shiji/title05.gif" alt="キャラクターチェンジ" width="164" height="20"></td>
+              <td><img src="img/shiji/title05.gif" alt="角色切换" width="164" height="20"></td>
             </tr>
             <tr>
               <td><span class="redLine"><img src="../common/img/all/spacer.gif" alt="" width="1" height="15"></span></td>
@@ -528,9 +528,9 @@ function bak(hoge){
                         <td><img src="img/shiji/icon6.gif" width="50" height="50"></td>
                       </tr>
                       <tr>
-                        <td><p class="para">操作キャラクターを入れ替える。<BR>
-  この操作をすると操作キャラクターが入れ替わり、<br>
-  パートナーを操作することが出来る。</p></td>
+                        <td><p class="para">切换控制角色。<BR>
+  这个指令可以切换控制角色、<br>
+  让你可以控制伙伴进行游戏。</p></td>
                       </tr>
                   </table></td>
                   <td class="chgImgArea">
@@ -541,19 +541,19 @@ function bak(hoge){
                     <tr>
                       <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
                         <tr>
-                          <td><a href="javascript:;" onClick="bak(5);"><img src="img/shiji/btn_back.gif" alt="BACK"></a></td>
-                          <td align="right"><a href="javascript:;" onClick="nxt(5);"><img src="img/shiji/btn_next.gif" alt="NEXT"></a></td>
+                          <td><a href="javascript:;" onClick="bak(5);"><img src="img/shiji/btn_back.gif" alt="返回"></a></td>
+                          <td align="right"><a href="javascript:;" onClick="nxt(5);"><img src="img/shiji/btn_next.gif" alt="下一步"></a></td>
                         </tr>
                       </table></td>
                     </tr>
                     <tr>
                       <td height="80" valign="top">
-					  <p id="d5cat1" class="para"><span class="dispchange">1/6</span><br>主人公であるブラッドホークを操作</p>
-					  <p id="d5cat2" class="para" style="display:none"><span class="dispchange">2/6</span><br>指示出しでキャラクターチェンジ…</p>
-					  <p id="d5cat3" class="para" style="display:none"><span class="dispchange">3/6</span><br>指示出しでキャラクターチェンジ…</p>
-					  <p id="d5cat4" class="para" style="display:none"><span class="dispchange">4/6</span><br>体力ゲージの位置が入れ替わり</p>
-					  <p id="d5cat5" class="para" style="display:none"><span class="dispchange">5/6</span><br>体力ゲージの位置が入れ替わり</p>
-					  <p id="d5cat6" class="para" style="display:none"><span class="dispchange">6/6</span><br>操作キャラクターがリー・シュンインに移り変わった</p>
+					  <p id="d5cat1" class="para"><span class="dispchange">1/6</span><br>控制主角 Brad Hawk</p>
+					  <p id="d5cat2" class="para" style="display:none"><span class="dispchange">2/6</span><br>通过下达指令切换角色...</p>
+					  <p id="d5cat3" class="para" style="display:none"><span class="dispchange">3/6</span><br>通过下达指令切换角色...</p>
+					  <p id="d5cat4" class="para" style="display:none"><span class="dispchange">4/6</span><br>体力槽的位置被替换了</p>
+					  <p id="d5cat5" class="para" style="display:none"><span class="dispchange">5/6</span><br>体力槽的位置被替换了</p>
+					  <p id="d5cat6" class="para" style="display:none"><span class="dispchange">6/6</span><br>控制角色已切换至 Lee Shun Ying</p>
 
 					  </td>
                     </tr>
@@ -574,8 +574,8 @@ function bak(hoge){
 	<tr>
 		<td align="right"><table width="100%" border="0" cellpadding="0" cellspacing="0">
           <tr>
-            <td align="left"><p class="para" id="gotop"><a href="../">トップへ戻る</a></p></td>
-            <td align="right"><p id="gotop"class="para"><a href="instruction.php.htm">このページの先頭に戻る</a></p></td>
+            <td align="left"><p class="para" id="gotop"><a href="../">返回首页</a></p></td>
+            <td align="right"><p id="gotop"class="para"><a href="instruction.php.htm">返回本页顶部</a></p></td>
           </tr>
         </table></td>
 	</tr>
