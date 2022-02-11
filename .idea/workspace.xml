@@ -6,6 +6,31 @@
   <component name="ChangeListManager">
     <list default="true" id="b6824e3a-c1de-41cd-a75a-bc7b4a2bc544" name="变更" comment="更新翻译">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action/divingcombo.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/action/divingcombo.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action/enemy.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/action/enemy.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/action/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action/index.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/action/index.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action/instruction.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/action/instruction.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action/protection.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/action/protection.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action/target_change_combo.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/action/target_change_combo.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/img/navi/navian_01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/navi/navian_01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/img/navi/navian_01_f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/navi/navian_01_f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/img/navi/navian_02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/navi/navian_02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/img/navi/navian_02_f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/navi/navian_02_f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/img/navi/navian_03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/navi/navian_03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/img/navi/navian_03_f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/navi/navian_03_f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/img/navi/navian_04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/navi/navian_04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/img/navi/navian_04_f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/navi/navian_04_f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/img/navi/navian_05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/navi/navian_05.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/img/navi/navian_05_f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/navi/navian_05_f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/img/navi/navian_06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/navi/navian_06.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/img/navi/navian_06_f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/navi/navian_06_f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/img/navi/navian_07.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/navi/navian_07.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/img/navi/navian_07_f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/navi/navian_07_f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/img/navi/navian_08.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/navi/navian_08.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/img/navi/navian_08_f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/navi/navian_08_f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/img/navi/navian_09.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/navi/navian_09.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/img/navi/navian_09_f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/common/img/navi/navian_09_f.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +76,8 @@
       <workItem from="1643411330149" duration="36110000" />
       <workItem from="1643454956767" duration="9180000" />
       <workItem from="1643514221051" duration="706000" />
-      <workItem from="1644540375217" duration="32639000" />
+      <workItem from="1644540375217" duration="32797000" />
+      <workItem from="1644581840377" duration="2721000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1644540638657</created>
