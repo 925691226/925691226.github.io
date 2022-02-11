@@ -4,22 +4,17 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6824e3a-c1de-41cd-a75a-bc7b4a2bc544" name="变更" comment="">
+    <list default="true" id="b6824e3a-c1de-41cd-a75a-bc7b4a2bc544" name="变更" comment="测试">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/download/index.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/index.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/download/index.php.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/ur_alex.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/movie/ur_alex.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/ur_brad.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/movie/ur_brad.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/ur_chris.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/movie/ur_chris.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/ur_dwayne.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/movie/ur_dwayne.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/ur_glen.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/movie/ur_glen.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/ur_grimm.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/movie/ur_grimm.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/ur_jake.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/movie/ur_jake.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/ur_kadonashi.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/movie/ur_kadonashi.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/ur_lee.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/movie/ur_lee.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/ur_park.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/movie/ur_park.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/ur_tong.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/movie/ur_tong.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/urmovie1.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/movie/urmovie1.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/action/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action/index.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/action/index.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/character/lee.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/character/lee.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/stage/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage/index.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/stage/index.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage/multiplaystage.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/stage/multiplaystage.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage/stage2.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/stage/stage2.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage/stage4.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/stage/stage4.php.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage/stage5.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/stage/stage5.php.htm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +23,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="24Jx8hswhK4nGg08ENyeOFSD2Do" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -60,10 +59,34 @@
       <workItem from="1643411330149" duration="36110000" />
       <workItem from="1643454956767" duration="9180000" />
       <workItem from="1643514221051" duration="706000" />
+      <workItem from="1644540375217" duration="1183000" />
     </task>
+    <task id="LOCAL-00001" summary="测试">
+      <created>1644540638657</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1644540638657</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试" />
   </component>
 </project>
