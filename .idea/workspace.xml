@@ -4,10 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6824e3a-c1de-41cd-a75a-bc7b4a2bc544" name="变更" comment="更新翻译">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/character/dwayne.php.htm" beforeDir="false" afterPath="$PROJECT_DIR$/character/dwayne.php.htm" afterDir="false" />
-    </list>
+    <list default="true" id="b6824e3a-c1de-41cd-a75a-bc7b4a2bc544" name="变更" comment="更新翻译" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +52,7 @@
       <workItem from="1644540375217" duration="32797000" />
       <workItem from="1644581840377" duration="2793000" />
       <workItem from="1644587600836" duration="488000" />
-      <workItem from="1644668483884" duration="310000" />
+      <workItem from="1644668483884" duration="451000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1644540638657</created>
